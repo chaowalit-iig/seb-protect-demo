@@ -1,0 +1,4 @@
+/* FNA page 01 */
+.form-buy-ins-cnt .title-section { margin-bottom: 1rem;  }
+#formBuyInsurance .form-buttons {margin-top: 2.75em; }
+@media (min-width: 992px){ #formBuyInsurance { margin-left: 0px; margin-right: 0px }}
