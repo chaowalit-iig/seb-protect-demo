@@ -1,1479 +1,428 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700&amp;display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://scbprotect.co.th/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700&display=swap" rel="stylesheet">
   <script src="/assets/js/jquery.min.js"></script>
-  <link rel="stylesheet" href="/assets/css/app.css">
-
+  <link rel="stylesheet" href="/assets/css/app.css"/>
   <title>PREMIUM CALCULATION | SCB PROTECT</title>
-  <meta name="description" content="ประกันสุขภาพ แผนคุ้มรักษาเหมาจ่าย จ่ายทุกค่ารักษาพยาบาล หากคุณต้องนอนโรงพยาบาล ค่ารักษาเท่าไหร่ก็จ่ายตามนั้น อ่านข้อมูลเพิ่มเติมให้ที่ SCB PROTECT">
   <link rel="stylesheet" href="assets/css/smoot_scrollbar_style.css">
-</head>
 
+  <!-- custom style -->
+  <style>
+    .slide-hero2 .dt-only {
+      padding-bottom: 25.35%;
+      background-position-y: -50px;
+    }
+
+    .slide-hero2 .dt-only p {
+      margin-bottom: 1rem;
+    }
+  </style>
+
+</head>
 <body class="scroll-ready page-product-detail">
-  <div id="scrollContainer" data-scrollbar="true" tabindex="-1" style="overflow: hidden; outline: none;">
-    <div class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
-      <div class="scroll-content-inner">
-  
-        <section id="intro" data-onepage="ข้อมูล">
-          <div class="slide slide-hero2 owl-carousel owl-loaded owl-drag slide-one-item" data-opt-nav="true">
-            <!--	Slide Item -->
-  
-            <!--	End: Slide Item -->
-            <div class="owl-stage-outer owl-height" style="height: 750px;">
-              <div class="owl-stage"
-                style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1920px;">
-                <div class="owl-item active" style="width: 1920px;">
-                  <div class="slide-item layout-default">
-                    <div class="inner">
-                      <!--	Desktop -->
-                      <div class="dt-only" style="background-image: url(/uploads/img/health/lumpsum/Banner_Lumpsum.jpg)">
-                        <div class="content-wrap tac-container-1">
-                          <div class="content">
-                            <h3 class="">แผนคุ้มรักษาเหมาจ่าย</h3>
-                            <p>หมดกังวลเรื่องค่ารักษาพยาบาลด้วย<br class="dt-only">แผนคุ้มรักษาเหมาจ่าย จ่ายตามจริง<br
-                                class="dt-only">ทุกค่าใช้จ่ายในโรงพยาบาล</p>
-                            <div class="buttons">
-                              <a class="btn btn-secondary" href="/uploads/file/brochure/brochure-health-lumpsum.pdf">
-                                <svg>
-                                  <use xlink:href="#ti-download"></use>
-                                </svg>
-                                <span class="btn-text">ดาวน์โหลดโบรชัวร์</span>
-                              </a>
-                              <button class="btn btn-share btn-primary-flat">
-                                <div class="btn-inner" style="width: auto; transition: width 0.3s ease 0.1s;">
-                                  <svg>
-                                    <use xlink:href="#ti-share"></use>
-                                  </svg>
-                                  <span class="btn-text">แชร์ให้เพื่อน</span>
-                                  <div class="sharer2">
-                                    <div class="inner"> <a
-                                        href="https://www.facebook.com/sharer/sharer.php?u=https://scbprotect.co.th/health/lumpsum/"
-                                        target="_blank" class="share-item"><svg>
-                                          <use xlink:href="#ti-facebook-round"></use>
-                                        </svg></a><a
-                                        href="http://twitter.com/share?url=https://scbprotect.co.th/health/lumpsum/"
-                                        target="_blank" class="share-item"><svg>
-                                          <use xlink:href="#ti-twitter-round"></use>
-                                        </svg></a><a
-                                        href="https://social-plugins.line.me/lineit/share?url=https://scbprotect.co.th/health/lumpsum/"
-                                        target="_blank" class="share-item"><svg>
-                                          <use xlink:href="#ti-line-round"></use>
-                                        </svg></a></div>
-                                  </div>
-                                </div>
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!--	Mobile -->
-                      <div class="mb-only">
-                        <div class="img-bg"
-                          style="background-image: url(/uploads/img/health/lumpsum/Banner_Lumpsum-mb.jpg)"></div>
-                        <div class="content-wrap tac-container-1">
-                          <div class="content">
-                            <h3 class="">แผนคุ้มรักษาเหมาจ่าย</h3>
-                            <p>ที่สุดของความคุ้มค่า ที่สามารถเปลี่ยนจำนวนเงินเอาประกันชีวิต เป็นค่ารักษาพยาบาลผู้ป่วยใน
-                              หลังอายุ 60 ปี</p>
-                            <div class="buttons">
-                              <a class="btn btn-secondary" href="/uploads/file/brochure/brochure-health-lumpsum.pdf">
-                                <svg>
-                                  <use xlink:href="#ti-download"></use>
-                                </svg>
-                                <span class="btn-text">ดาวน์โหลดโบรชัวร์</span>
-                              </a>
-                              <button class="btn btn-share btn-primary-flat">
-                                <div class="btn-inner">
-                                  <svg>
-                                    <use xlink:href="#ti-share"></use>
-                                  </svg>
-                                  <span class="btn-text">แชร์ให้เพื่อน</span>
-                                  <div class="sharer2">
-                                    <div class="inner"> <a
-                                        href="https://www.facebook.com/sharer/sharer.php?u=https://scbprotect.co.th/health/lumpsum/"
-                                        target="_blank" class="share-item"><svg>
-                                          <use xlink:href="#ti-facebook-round"></use>
-                                        </svg></a><a
-                                        href="http://twitter.com/share?url=https://scbprotect.co.th/health/lumpsum/"
-                                        target="_blank" class="share-item"><svg>
-                                          <use xlink:href="#ti-twitter-round"></use>
-                                        </svg></a><a
-                                        href="https://social-plugins.line.me/lineit/share?url=https://scbprotect.co.th/health/lumpsum/"
-                                        target="_blank" class="share-item"><svg>
-                                          <use xlink:href="#ti-line-round"></use>
-                                        </svg></a></div>
-                                  </div>
-                                </div>
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-nav disabled">
-              <div class="owl-prev"></div>
-              <div class="owl-next"></div>
-            </div>
-            <div class="owl-dots disabled"></div>
-            <div class="slide-counter"></div><button class="slide-nav slide-nav-prev">
-              <div class="slide-nav-icon"><svg>
-                  <use xlink:href="#ti-chevron-left"></use>
-                </svg></div>
-            </button><button class="slide-nav slide-nav-next">
-              <div class="slide-nav-icon"><svg>
-                  <use xlink:href="#ti-chevron-right"></use>
-                </svg></div>
-            </button>
-          </div>
-        </section>
-  
-        <section id="info">
-          <div class="tac-container-1">
-            <div class="sec-2col sec-2col--reversed typo-2">
-              <div class="col-first">
-                <img class="w-100 img-rounded box-shadow-1" src="/uploads/img/health/lumpsum/lumpsum-small.jpg">
-              </div>
-              <div class="col-last align-self-center">
-                <p>เป็นเจ้าของกิจการที่ทุ่มเททุกอย่างไปกับการทำงาน<br class="dt-only">วางแผนการเงินของธุรกิจและครอบครัว
-                  จะเลือกใช้อะไร<br class="dt-only">ก็คิดเสมอว่าต้องคุ้มค่า เรื่องดูแลสุขภาพก็เช่นกัน<br class="dt-only">
-                  เราต้องเลือกสิ่งที่ดีที่สุด</p>
-                <p>ประกันสุขภาพที่เห็นทั่วไป มักมีเงื่อนไขเล็กๆ น้อยๆ<br class="dt-only"> สุดท้ายตอนใช้จริงก็ต้องจ่ายเพิ่ม
-                </p>
-                <h5>หมดปัญหาดังกล่าวด้วยแผนประกันสุขภาพ</h5>
-                <h5><b class="color-secondary">แผนคุ้มรักษาเหมาจ่าย</b> จ่ายทุกค่ารักษาพยาบาล หากคุณต้องนอนโรงพยาบาล
-                  ค่ารักษาเท่าไหร่<br class="dt-only">ก็จ่ายตามนั้น ให้คุณสบายใจได้ว่า
-                  เดินออกจากโรงพยาบาลโดยไม่เสียส่วนต่างค่ารักษาอีกต่อไป</h5>
-              </div>
-            </div>
-          </div>
-        </section>
-  
-        <section id="features">
-          <div class="banner-features typo-2">
-            <div class="img-full-width dt-only"
-              style="background-image: url(/uploads/img/health/lumpsum/Pic_icon_Lumpsum.jpg)">
-            </div>
-            <div class="img-full-width mb-only"
-              style="background-image: url(/uploads/img/health/lumpsum/Pic_icon_Lumpsum.jpg)">
-            </div>
-            <div class="tac-container-1">
-              <div class="content-wrap">
-                <div class="content text-center effect-grid-fadein">
-                  <h3 class="color-secondary effect-item">รูปแบบใหม่ของแผนประกันสุขภาพ </h3>
-                  <h5 class="color-primary text-center effect-item">ที่ไม่จำกัดค่าห้อง สามารถเลือกวงเงิน<br
-                      class="mb-only">ค่ารักษาได้ตามแผนที่คุณต้องการ</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tac-container-1 typo-2" data-sh=".feat h5">
-            <div class="grid1 color-primary effect-grid-fadein">
-              <!-- feat item -->
-              <div class="feat effect-item col-sm-6 col-lg-3">
-                <div class="feat-inner">
-                  <div class="feat-icon">
-                    <img src="/uploads/img/common/hospital.png">
-                  </div>
-                  <div class="feat-content">
-                    <h5 style="height: 42px;"><span class="color-secondary">คุ้ม</span>ครอบคลุม</h5>
-                    <p class="mb-2 text-center">จ่ายค่ารักษาพยาบาลตามจริง<br
-                        class="dt-only">ทุกรายการเมื่อต้องเข้าพักรักษาเป็นผู้ป่วยใน ในโรงพยาบาล</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End: feat item -->
-              <!-- feat item -->
-              <div class="feat effect-item col-sm-6 col-lg-3">
-                <div class="feat-inner">
-                  <div class="feat-icon">
-                    <img src="/uploads/img/common/checkup.png">
-                  </div>
-                  <div class="feat-content">
-                    <h5 style="height: 42px;"><span class="color-secondary">คุ้ม</span>ครองไร้กังวล</h5>
-                    <p class="mb-2 text-center">ด้วยแผนสุขภาพเหมาจ่าย<br class="dt-only">สูงสุดถึง 3,300,000 บาท <br
-                        class="dt-only">ให้คุณหมดกังวลเรื่อง<br class="mb-only"><br class="dt-only">ค่ารักษาพยาบาลที่<br
-                        class="dt-only">เพิ่มขึ้นอย่างต่อเนื่อง</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End: feat item -->
-              <!-- feat item -->
-              <div class="feat effect-item col-sm-6 col-lg-3">
-                <div class="feat-inner">
-                  <div class="feat-icon">
-                    <img src="/uploads/img/common/worth-confident@2x.png">
-                  </div>
-                  <div class="feat-content">
-                    <h5 style="height: 42px;"><span class="color-secondary">คุ้ม</span>รักษา</h5>
-                    <p class="mb-2 text-center">ครอบคลุมทุกค่ารักษา <br class="dt-only">ด้วยเบี้ยประกันภัย <br
-                        class="mb-only">เริ่มต้น<br class="dt-only"> เพียง 19,800 บาท ต่อปี <br class="dt-only"><br
-                        class="mb-only">(เพศชาย อายุ 35 ปี <br class="dt-only">แผน Super)</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End: feat item -->
-              <!-- feat item -->
-              <div class="feat effect-item col-sm-6 col-lg-3">
-                <div class="feat-inner">
-                  <div class="feat-icon">
-                    <img src="/uploads/img/common/hand-bath.png">
-                  </div>
-                  <div class="feat-content">
-                    <h5 style="height: 42px;"><span class="color-secondary">คุ้ม</span>สบายใจ</h5>
-                    <p class="mb-2 text-center">หมดกังวล แม้ขาดงาน
-                      แต่ไม่ขาดรายได้ด้วยค่าชดเชยรายวันเมื่อเข้ารักษาตัวในโรงพยาบาล <br class="dt-only">วันละ 1,000 บาท
-                      <br class="dt-only">(กรณีเลือกซื้อเพิ่มเติม)</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End: feat item -->
-            </div>
-          </div>
-        </section>
-  
-  
-  
-  
-  
-        <section id="plans" data-onepage="แผนต่างๆ">
-          <div class="tac-container-1">
-            <h2>ผลประโยชน์ความคุ้มครอง แผนคุ้มรักษาเหมาจ่าย</h2>
-            <a class="img-popup w-100" href="/uploads/img/health/lumpsum/table-lumpsum.jpg">
-              <div class="plan-table-title">ตารางเปรียบเทียบผลประโยชน์ความคุ้มครอง </div>
-            </a>
-            <div id="priceTable1">
-              <div class="ptb ptb-carousel">
-                <div class="ptb-inner owl-loaded owl-drag owl-carousel owl-hidden">
-                  <div class="owl-stage-outer">
-                    <div class="owl-stage"
-                      style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2084px;">
-                      <div class="owl-item active" style="width: 694.54px;">
-                        <div class="ptb-col">
-                          <div class="ptb-col-outer">
-                            <div class="ptb-col-inner">
-                              <div class="ptb-head">
-                                <div class="ptb-head-inner">
-                                  <h4>แผน Super</h4>
-                                </div>
-                              </div>
-                              <div class="ptb-row first-row">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <h5>ความคุ้มครอง</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row last-row">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h5>สัญญาเพิ่มเติมการประกันภัย<br class="mb-only">สุขภาพเหมาจ่าย </h5>
-                                      <h6>
-                                        <ul class="bullet-default">
-                                          <li>ค่าห้อง ค่าอาหาร ค่าบริการพยาบาลประจำวัน <br class="mb-only">ในหอผู้ป่วยปกติ
-                                            <br class="mb-only">และหอผู้ป่วยหนัก (ไอ.ซี.ยู)</li>
-                                          <li>ค่ารักษาพยาบาลอื่นๆ <br class="mb-only">ในโรงพยาบาล หรือสถานพยาบาลเวชกรรม
-                                          </li>
-                                          <li>ค่าแพทย์ และค่าธรรมเนียม สำหรับการรักษา <br class="mb-only">โดยการผ่าตัด
-                                          </li>
-                                          <li>ค่าแพทย์เยี่ยมไข้หรือค่าปรึกษาแพทย์ผู้เชี่ยวชาญเฉพาะโรค</li>
-                                          <li>ค่ารักษาพยาบาลฉุกเฉินขณะเป็นผู้ป่วยนอก <br
-                                              class="mb-only">(เนื่องจากอุบัติเหตุ)</li>
-                                          <li>ค่ารักษาพยาบาลกรณีผู้ป่วยนอกสำหรับค่าล้างไต ค่าเคมีบำบัด และรังสีบำบัด</li>
-                                        </ul>
-                                      </h6>
-                                    </div>
-                                    <div class="ptb-price"><span class="text-center"><br class="mb-only"><br
-                                          class="mb-only"><br class="mb"><small class="dt-only">จ่ายตามจริงสูงสุด</small>
-                                        <h6 class="mb-only"><br class="br-only">จ่ายตามจริง<br class="mb-only">สูงสุด</h6>
-                                        <br><br>550,000 <br class="dt"><br>ต่อปี
-                                      </span></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row first-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <h5>ตัวอย่างเบี้ยประกันรายปี</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>เพศชาย อายุ 35 ปี</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><b>19,800</b></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row last-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>เพศหญิง อายุ 35 ปี</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><b>25,740</b></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row first-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <h5>สัญญาเพิ่มเติมค่ารักษาพยาบาลรายวัน แบบเฮชบี</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row last-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>ค่าชดเชยรายวันเมื่อเข้าพักรักษาตัวในโรงพยาบาล ต่อวัน</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><span>1,000</span></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row first-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <h5>ตัวอย่างเบี้ยประกันรายปี</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>เพศชาย อายุ 35 ปี</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><b>1,600</b></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row last-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>เพศหญิง อายุ 35 ปี</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><b>1,600</b></div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="ptb-foot">
-                              <div class="ptb-foot-inner">
-                                <div class="ptb-foot-show">ดูข้อมูลเพิ่มเติม</div>
-                                <div class="ptb-foot-hide">ย่อข้อมูล</div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="owl-item active" style="width: 694.54px;">
-                        <div class="ptb-col">
-                          <div class="ptb-col-outer">
-                            <div class="ptb-col-inner">
-                              <div class="ptb-head">
-                                <div class="ptb-head-inner">
-                                  <h4>แผน Grand</h4>
-                                </div>
-                              </div>
-                              <div class="ptb-row first-row">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <h5>ความคุ้มครอง</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row last-row">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h5>สัญญาเพิ่มเติมการประกันภัย<br class="mb-only">สุขภาพเหมาจ่าย </h5>
-                                      <h6>
-                                        <ul class="bullet-default">
-                                          <li>ค่าห้อง ค่าอาหาร ค่าบริการพยาบาลประจำวัน <br class="mb-only">ในหอผู้ป่วยปกติ
-                                            <br class="mb-only">และหอผู้ป่วยหนัก (ไอ.ซี.ยู)</li>
-                                          <li>ค่ารักษาพยาบาลอื่นๆ <br class="mb-only">ในโรงพยาบาล หรือสถานพยาบาลเวชกรรม
-                                          </li>
-                                          <li>ค่าแพทย์ และค่าธรรมเนียม สำหรับการรักษา <br class="mb-only">โดยการผ่าตัด
-                                          </li>
-                                          <li>ค่าแพทย์เยี่ยมไข้หรือค่าปรึกษาแพทย์ผู้เชี่ยวชาญเฉพาะโรค</li>
-                                          <li>ค่ารักษาพยาบาลฉุกเฉินขณะเป็นผู้ป่วยนอก <br
-                                              class="mb-only">(เนื่องจากอุบัติเหตุ)</li>
-                                          <li>ค่ารักษาพยาบาลกรณีผู้ป่วยนอกสำหรับค่าล้างไต ค่าเคมีบำบัด และรังสีบำบัด</li>
-                                        </ul>
-                                      </h6>
-                                    </div>
-                                    <div class="ptb-price"><span class="text-center"><br class="mb-only"><br
-                                          class="mb-only"><br class="mb"><small class="dt-only">จ่ายตามจริงสูงสุด</small>
-                                        <h6 class="mb-only"><br class="br-only">จ่ายตามจริง<br class="mb-only">สูงสุด</h6>
-                                        <br><br>1,100,000 <br class="dt"><br>ต่อปี
-                                      </span></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row first-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <h5>ตัวอย่างเบี้ยประกันรายปี</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>เพศชาย อายุ 35 ปี</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><b>23,500</b></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row last-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>เพศหญิง อายุ 35 ปี</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><b>30,550</b></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row first-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <h5>สัญญาเพิ่มเติมค่ารักษาพยาบาลรายวัน แบบเฮชบี</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row last-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>ค่าชดเชยรายวันเมื่อเข้าพักรักษาตัวในโรงพยาบาล ต่อวัน</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><span>1,000</span></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row first-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <h5>ตัวอย่างเบี้ยประกันรายปี</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>เพศชาย อายุ 35 ปี</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><b>1,600</b></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row last-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>เพศหญิง อายุ 35 ปี</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><b>1,600</b></div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="ptb-foot">
-                              <div class="ptb-foot-inner">
-                                <div class="ptb-foot-show">ดูข้อมูลเพิ่มเติม</div>
-                                <div class="ptb-foot-hide">ย่อข้อมูล</div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="owl-item" style="width: 694.54px;">
-                        <div class="ptb-col">
-                          <div class="ptb-col-outer">
-                            <div class="ptb-col-inner">
-                              <div class="ptb-head">
-                                <div class="ptb-head-inner">
-                                  <h4>แผน Ultra</h4>
-                                </div>
-                              </div>
-                              <div class="ptb-row first-row">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <h5>ความคุ้มครอง</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row last-row">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h5>สัญญาเพิ่มเติมการประกันภัย<br class="mb-only">สุขภาพเหมาจ่าย </h5>
-                                      <h6>
-                                        <ul class="bullet-default">
-                                          <li>ค่าห้อง ค่าอาหาร ค่าบริการพยาบาลประจำวัน <br class="mb-only">ในหอผู้ป่วยปกติ
-                                            <br class="mb-only">และหอผู้ป่วยหนัก (ไอ.ซี.ยู)</li>
-                                          <li>ค่ารักษาพยาบาลอื่นๆ <br class="mb-only">ในโรงพยาบาล หรือสถานพยาบาลเวชกรรม
-                                          </li>
-                                          <li>ค่าแพทย์ และค่าธรรมเนียม สำหรับการรักษา <br class="mb-only">โดยการผ่าตัด
-                                          </li>
-                                          <li>ค่าแพทย์เยี่ยมไข้หรือค่าปรึกษาแพทย์ผู้เชี่ยวชาญเฉพาะโรค</li>
-                                          <li>ค่ารักษาพยาบาลฉุกเฉินขณะเป็นผู้ป่วยนอก <br
-                                              class="mb-only">(เนื่องจากอุบัติเหตุ)</li>
-                                          <li>ค่ารักษาพยาบาลกรณีผู้ป่วยนอกสำหรับค่าล้างไต ค่าเคมีบำบัด และรังสีบำบัด</li>
-                                        </ul>
-                                      </h6>
-                                    </div>
-                                    <div class="ptb-price"><span class="text-center"><br class="mb-only"><br
-                                          class="mb-only"><br class="mb"><small class="dt-only">จ่ายตามจริงสูงสุด</small>
-                                        <h6 class="mb-only"><br class="br-only">จ่ายตามจริง<br class="mb-only">สูงสุด</h6>
-                                        <br><br>3,300,000 <br class="dt"><br>ต่อปี
-                                      </span></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row first-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <h5>ตัวอย่างเบี้ยประกันรายปี</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>เพศชาย อายุ 35 ปี</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><b>38,200</b></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row last-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>เพศหญิง อายุ 35 ปี</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><b>49,660</b></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row first-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <h5>สัญญาเพิ่มเติมค่ารักษาพยาบาลรายวัน แบบเฮชบี</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row last-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>ค่าชดเชยรายวันเมื่อเข้าพักรักษาตัวในโรงพยาบาล ต่อวัน</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><span>1,000</span></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row first-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <h5>ตัวอย่างเบี้ยประกันรายปี</h5>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>เพศชาย อายุ 35 ปี</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><b>1,600</b></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="ptb-row last-row hidden-row hide">
-                                <div class="ptb-row-outer">
-                                  <div class="ptb-row-inner">
-                                    <div class="ptb-text">
-                                      <h6>เพศหญิง อายุ 35 ปี</h6>
-                                      <p></p>
-                                    </div>
-                                    <div class="ptb-price"><b>1,600</b></div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="ptb-foot">
-                              <div class="ptb-foot-inner">
-                                <div class="ptb-foot-show">ดูข้อมูลเพิ่มเติม</div>
-                                <div class="ptb-foot-hide">ย่อข้อมูล</div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="owl-nav disabled">
-                    <div class="owl-prev">prev</div>
-                    <div class="owl-next">next</div>
-                  </div>
-                  <div class="owl-dots">
-                    <div class="owl-dot active"><span></span></div>
-                    <div class="owl-dot"><span></span></div>
-                    <div class="owl-dot"><span></span></div>
-                  </div>
-                </div>
-              </div>
-              <div class="ptb ptb-desktop">
-                <div class="ptb-inner">
-                  <div class="ptb-col">
-                    <div class="ptb-col-outer">
-                      <div class="ptb-col-inner">
-                        <div class="ptb-head" style="height: 121px;">
-                          <div class="ptb-head-inner"></div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner">
-                            <h5>ความคุ้มครอง</h5>
-                          </div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 271px;">
-                          <div class="ptb-row-inner">
-                            <h5>สัญญาเพิ่มเติมการประกันภัย<br class="mb-only">สุขภาพเหมาจ่าย </h5>
-                            <h6>
-                              <ul class="bullet-default">
-                                <li>ค่าห้อง ค่าอาหาร ค่าบริการพยาบาลประจำวัน <br class="mb-only">ในหอผู้ป่วยปกติ <br
-                                    class="mb-only">และหอผู้ป่วยหนัก (ไอ.ซี.ยู)</li>
-                                <li>ค่ารักษาพยาบาลอื่นๆ <br class="mb-only">ในโรงพยาบาล หรือสถานพยาบาลเวชกรรม</li>
-                                <li>ค่าแพทย์ และค่าธรรมเนียม สำหรับการรักษา <br class="mb-only">โดยการผ่าตัด</li>
-                                <li>ค่าแพทย์เยี่ยมไข้หรือค่าปรึกษาแพทย์ผู้เชี่ยวชาญเฉพาะโรค</li>
-                                <li>ค่ารักษาพยาบาลฉุกเฉินขณะเป็นผู้ป่วยนอก <br class="mb-only">(เนื่องจากอุบัติเหตุ)</li>
-                                <li>ค่ารักษาพยาบาลกรณีผู้ป่วยนอกสำหรับค่าล้างไต ค่าเคมีบำบัด และรังสีบำบัด</li>
-                              </ul>
-                            </h6>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner">
-                            <h5>ตัวอย่างเบี้ยประกันรายปี</h5>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 41px;">
-                          <div class="ptb-row-inner">
-                            <h6>เพศชาย อายุ 35 ปี</h6>
-                            <p></p>
-                          </div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 61px;">
-                          <div class="ptb-row-inner">
-                            <h6>เพศหญิง อายุ 35 ปี</h6>
-                            <p></p>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner">
-                            <h5>สัญญาเพิ่มเติมค่ารักษาพยาบาลรายวัน แบบเฮชบี</h5>
-                          </div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 61px;">
-                          <div class="ptb-row-inner">
-                            <h6>ค่าชดเชยรายวันเมื่อเข้าพักรักษาตัวในโรงพยาบาล ต่อวัน</h6>
-                            <p></p>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner">
-                            <h5>ตัวอย่างเบี้ยประกันรายปี</h5>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 41px;">
-                          <div class="ptb-row-inner">
-                            <h6>เพศชาย อายุ 35 ปี</h6>
-                            <p></p>
-                          </div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 41px;">
-                          <div class="ptb-row-inner">
-                            <h6>เพศหญิง อายุ 35 ปี</h6>
-                            <p></p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="ptb-col">
-                    <div class="ptb-col-outer">
-                      <div class="ptb-col-inner">
-                        <div class="ptb-head" style="height: 121px;">
-                          <div class="ptb-head-inner">
-                            <h4>แผน Super</h4>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner"></div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 271px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><span class="text-center"><br class="mb-only"><br class="mb-only"><br
-                                  class="mb"><small class="dt-only">จ่ายตามจริงสูงสุด</small>
-                                <h6 class="mb-only"><br class="br-only">จ่ายตามจริง<br class="mb-only">สูงสุด</h6>
-                                <br><br>550,000 <br class="dt"><br>ต่อปี
-                              </span></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner"></div>
-                        </div>
-                        <div class="ptb-row" style="height: 41px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><b>19,800</b></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 61px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><b>25,740</b></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner"></div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 61px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><span>1,000</span></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner"></div>
-                        </div>
-                        <div class="ptb-row" style="height: 41px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><b>1,600</b></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 41px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><b>1,600</b></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="ptb-col">
-                    <div class="ptb-col-outer">
-                      <div class="ptb-col-inner">
-                        <div class="ptb-head" style="height: 121px;">
-                          <div class="ptb-head-inner">
-                            <h4>แผน Grand</h4>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner"></div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 271px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><span class="text-center"><br class="mb-only"><br class="mb-only"><br
-                                  class="mb"><small class="dt-only">จ่ายตามจริงสูงสุด</small>
-                                <h6 class="mb-only"><br class="br-only">จ่ายตามจริง<br class="mb-only">สูงสุด</h6>
-                                <br><br>1,100,000 <br class="dt"><br>ต่อปี
-                              </span></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner"></div>
-                        </div>
-                        <div class="ptb-row" style="height: 41px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><b>23,500</b></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 61px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><b>30,550</b></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner"></div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 61px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><span>1,000</span></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner"></div>
-                        </div>
-                        <div class="ptb-row" style="height: 41px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><b>1,600</b></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 41px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><b>1,600</b></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="ptb-col">
-                    <div class="ptb-col-outer">
-                      <div class="ptb-col-inner">
-                        <div class="ptb-head" style="height: 121px;">
-                          <div class="ptb-head-inner">
-                            <h4>แผน Ultra</h4>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner"></div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 271px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><span class="text-center"><br class="mb-only"><br class="mb-only"><br
-                                  class="mb"><small class="dt-only">จ่ายตามจริงสูงสุด</small>
-                                <h6 class="mb-only"><br class="br-only">จ่ายตามจริง<br class="mb-only">สูงสุด</h6>
-                                <br><br>3,300,000 <br class="dt"><br>ต่อปี
-                              </span></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner"></div>
-                        </div>
-                        <div class="ptb-row" style="height: 41px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><b>38,200</b></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 61px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><b>49,660</b></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner"></div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 61px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><span>1,000</span></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row" style="height: 46px;">
-                          <div class="ptb-row-inner"></div>
-                        </div>
-                        <div class="ptb-row" style="height: 41px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><b>1,600</b></div>
-                          </div>
-                        </div>
-                        <div class="ptb-row last-row" style="height: 41px;">
-                          <div class="ptb-row-inner">
-                            <div class="price"><b>1,600</b></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <script>
-              if (!window.priceTables) {
-                window.priceTables = []
-              }
-              window.priceTables.push({ "id": "priceTable1", "head": ["\u0e41\u0e1c\u0e19 Super", "\u0e41\u0e1c\u0e19 Grand", "\u0e41\u0e1c\u0e19 Ultra"], "content": [{ "title": "<h5>\u0e04\u0e27\u0e32\u0e21\u0e04\u0e38\u0e49\u0e21\u0e04\u0e23\u0e2d\u0e07<\/h5>", "content": [{ "text": "<h5>\u0e2a\u0e31\u0e0d\u0e0d\u0e32\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e40\u0e15\u0e34\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e23\u0e30\u0e01\u0e31\u0e19\u0e20\u0e31\u0e22<br class=\"mb-only\">\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e\u0e40\u0e2b\u0e21\u0e32\u0e08\u0e48\u0e32\u0e22 <\/h5>\n\t\t\t\t\t\t\t<h6> \n\t\t\t\t\t\t\t\t<ul class=\"bullet-default\">\n\t\t\t\t\t\t\t\t\t<li>\u0e04\u0e48\u0e32\u0e2b\u0e49\u0e2d\u0e07 \u0e04\u0e48\u0e32\u0e2d\u0e32\u0e2b\u0e32\u0e23 \u0e04\u0e48\u0e32\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e1b\u0e23\u0e30\u0e08\u0e33\u0e27\u0e31\u0e19 <br class=\"mb-only\">\u0e43\u0e19\u0e2b\u0e2d\u0e1c\u0e39\u0e49\u0e1b\u0e48\u0e27\u0e22\u0e1b\u0e01\u0e15\u0e34 <br class=\"mb-only\">\u0e41\u0e25\u0e30\u0e2b\u0e2d\u0e1c\u0e39\u0e49\u0e1b\u0e48\u0e27\u0e22\u0e2b\u0e19\u0e31\u0e01 (\u0e44\u0e2d.\u0e0b\u0e35.\u0e22\u0e39)<\/li>\n\t\t\t\t\t\t\t\t\t<li>\u0e04\u0e48\u0e32\u0e23\u0e31\u0e01\u0e29\u0e32\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e2d\u0e37\u0e48\u0e19\u0e46 <br class=\"mb-only\">\u0e43\u0e19\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25 \u0e2b\u0e23\u0e37\u0e2d\u0e2a\u0e16\u0e32\u0e19\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e40\u0e27\u0e0a\u0e01\u0e23\u0e23\u0e21<\/li>\n\t\t\t\t\t\t\t\t\t<li>\u0e04\u0e48\u0e32\u0e41\u0e1e\u0e17\u0e22\u0e4c \u0e41\u0e25\u0e30\u0e04\u0e48\u0e32\u0e18\u0e23\u0e23\u0e21\u0e40\u0e19\u0e35\u0e22\u0e21 \u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e23\u0e31\u0e01\u0e29\u0e32 <br class=\"mb-only\">\u0e42\u0e14\u0e22\u0e01\u0e32\u0e23\u0e1c\u0e48\u0e32\u0e15\u0e31\u0e14<\/li>\n\t\t\t\t\t\t\t\t\t<li>\u0e04\u0e48\u0e32\u0e41\u0e1e\u0e17\u0e22\u0e4c\u0e40\u0e22\u0e35\u0e48\u0e22\u0e21\u0e44\u0e02\u0e49\u0e2b\u0e23\u0e37\u0e2d\u0e04\u0e48\u0e32\u0e1b\u0e23\u0e36\u0e01\u0e29\u0e32\u0e41\u0e1e\u0e17\u0e22\u0e4c\u0e1c\u0e39\u0e49\u0e40\u0e0a\u0e35\u0e48\u0e22\u0e27\u0e0a\u0e32\u0e0d\u0e40\u0e09\u0e1e\u0e32\u0e30\u0e42\u0e23\u0e04<\/li>\n\t\t\t\t\t\t\t\t\t<li>\u0e04\u0e48\u0e32\u0e23\u0e31\u0e01\u0e29\u0e32\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e09\u0e38\u0e01\u0e40\u0e09\u0e34\u0e19\u0e02\u0e13\u0e30\u0e40\u0e1b\u0e47\u0e19\u0e1c\u0e39\u0e49\u0e1b\u0e48\u0e27\u0e22\u0e19\u0e2d\u0e01 <br class=\"mb-only\">(\u0e40\u0e19\u0e37\u0e48\u0e2d\u0e07\u0e08\u0e32\u0e01\u0e2d\u0e38\u0e1a\u0e31\u0e15\u0e34\u0e40\u0e2b\u0e15\u0e38)<\/li>\n\t\t\t\t\t\t\t\t\t<li>\u0e04\u0e48\u0e32\u0e23\u0e31\u0e01\u0e29\u0e32\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e01\u0e23\u0e13\u0e35\u0e1c\u0e39\u0e49\u0e1b\u0e48\u0e27\u0e22\u0e19\u0e2d\u0e01\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e04\u0e48\u0e32\u0e25\u0e49\u0e32\u0e07\u0e44\u0e15 \u0e04\u0e48\u0e32\u0e40\u0e04\u0e21\u0e35\u0e1a\u0e33\u0e1a\u0e31\u0e14 \u0e41\u0e25\u0e30\u0e23\u0e31\u0e07\u0e2a\u0e35\u0e1a\u0e33\u0e1a\u0e31\u0e14<\/li>\n\t\t\t\t\t\t\t\t<\/ul>\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<\/h6>", "prices": ["<span class = \"text-center\"><br class=\"mb-only\"><br class=\"mb-only\"><br class=\"mb\"><small class = \"dt-only\">\u0e08\u0e48\u0e32\u0e22\u0e15\u0e32\u0e21\u0e08\u0e23\u0e34\u0e07\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14<\/small><h6 class =\"mb-only\"><br class=\"br-only\">\u0e08\u0e48\u0e32\u0e22\u0e15\u0e32\u0e21\u0e08\u0e23\u0e34\u0e07<br class=\"mb-only\">\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14<\/h6><br><br>550,000 <br class=\"dt\"><br>\u0e15\u0e48\u0e2d\u0e1b\u0e35<\/span>", "<span class = \"text-center\"><br class=\"mb-only\"><br class=\"mb-only\"><br class=\"mb\"><small class = \"dt-only\">\u0e08\u0e48\u0e32\u0e22\u0e15\u0e32\u0e21\u0e08\u0e23\u0e34\u0e07\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14<\/small><h6 class =\"mb-only\"><br class=\"br-only\">\u0e08\u0e48\u0e32\u0e22\u0e15\u0e32\u0e21\u0e08\u0e23\u0e34\u0e07<br class=\"mb-only\">\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14<\/h6><br><br>1,100,000 <br class=\"dt\"><br>\u0e15\u0e48\u0e2d\u0e1b\u0e35<\/span>", "<span class = \"text-center\"><br class=\"mb-only\"><br class=\"mb-only\"><br class=\"mb\"><small class = \"dt-only\">\u0e08\u0e48\u0e32\u0e22\u0e15\u0e32\u0e21\u0e08\u0e23\u0e34\u0e07\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14<\/small><h6 class =\"mb-only\"><br class=\"br-only\">\u0e08\u0e48\u0e32\u0e22\u0e15\u0e32\u0e21\u0e08\u0e23\u0e34\u0e07<br class=\"mb-only\">\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14<\/h6><br><br>3,300,000 <br class=\"dt\"><br>\u0e15\u0e48\u0e2d\u0e1b\u0e35<\/span>"] }] }, { "title": "<h5>\u0e15\u0e31\u0e27\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e40\u0e1a\u0e35\u0e49\u0e22\u0e1b\u0e23\u0e30\u0e01\u0e31\u0e19\u0e23\u0e32\u0e22\u0e1b\u0e35<\/h5>", "hidden": true, "content": [{ "text": "<h6>\u0e40\u0e1e\u0e28\u0e0a\u0e32\u0e22 \u0e2d\u0e32\u0e22\u0e38 35 \u0e1b\u0e35<\/h6>\n                           <p><\/p>", "prices": ["<b>19,800<\/b>", "<b>23,500<\/b>", "<b>38,200<\/b>"] }, { "text": "<h6>\u0e40\u0e1e\u0e28\u0e2b\u0e0d\u0e34\u0e07 \u0e2d\u0e32\u0e22\u0e38 35 \u0e1b\u0e35<\/h6>\n                           <p><\/p>", "prices": ["<b>25,740<\/b>", "<b>30,550<\/b>", "<b>49,660<\/b>"] }] }, { "title": "<h5>\u0e2a\u0e31\u0e0d\u0e0d\u0e32\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e40\u0e15\u0e34\u0e21\u0e04\u0e48\u0e32\u0e23\u0e31\u0e01\u0e29\u0e32\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e23\u0e32\u0e22\u0e27\u0e31\u0e19 \u0e41\u0e1a\u0e1a\u0e40\u0e2e\u0e0a\u0e1a\u0e35<\/h5>", "hidden": true, "content": [{ "text": "<h6>\u0e04\u0e48\u0e32\u0e0a\u0e14\u0e40\u0e0a\u0e22\u0e23\u0e32\u0e22\u0e27\u0e31\u0e19\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e40\u0e02\u0e49\u0e32\u0e1e\u0e31\u0e01\u0e23\u0e31\u0e01\u0e29\u0e32\u0e15\u0e31\u0e27\u0e43\u0e19\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25 \u0e15\u0e48\u0e2d\u0e27\u0e31\u0e19<\/h6>\n                           <p><\/p>", "prices": ["<span>1,000<\/span>", "<span>1,000<\/span>", "<span>1,000<\/span>"] }] }, { "title": "<h5>\u0e15\u0e31\u0e27\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e40\u0e1a\u0e35\u0e49\u0e22\u0e1b\u0e23\u0e30\u0e01\u0e31\u0e19\u0e23\u0e32\u0e22\u0e1b\u0e35<\/h5>", "hidden": true, "content": [{ "text": "<h6>\u0e40\u0e1e\u0e28\u0e0a\u0e32\u0e22 \u0e2d\u0e32\u0e22\u0e38 35 \u0e1b\u0e35<\/h6>\n                           <p><\/p>", "prices": ["<b>1,600<\/b>", "<b>1,600<\/b>", "<b>1,600<\/b>"] }, { "text": "<h6>\u0e40\u0e1e\u0e28\u0e2b\u0e0d\u0e34\u0e07 \u0e2d\u0e32\u0e22\u0e38 35 \u0e1b\u0e35<\/h6>\n                           <p><\/p>", "prices": ["<b>1,600<\/b>", "<b>1,600<\/b>", "<b>1,600<\/b>"] }] }] });
-            </script>
-          </div>
-        </section>
-  
-        <section id="qna" class="sec-prod-qa typo-mb-0" data-onepage="เงื่อนไขอื่นๆ">
-          <div class="tac-container-3">
-            <div class="tac-accordion theme-default">
-  
-              <!-- Level 1 Item -->
-              <div class="acc-item active">
-                <div class="acc-head">
-                  <div class="acc-head-content">
-                    <h4>เงื่อนไขการรับประกัน</h4>
-                  </div>
-                  <div class="toggle-icon">
-                    <div class="toggle-inner"></div>
-                  </div>
-                </div>
-                <div class="acc-content" style="height: auto;">
-                  <div class="acc-wrapper">
-                    <div class="content">
-                      <h5>
-                        อายุรับประกันภัย <br>
-                        สัญญาเพิ่มเติมการประกันภัยสุขภาพแบบเหมาจ่าย
-                      </h5>
-                      <ul class="bullet-dash indent">
-                        <li>แผน Super : อายุ 1 เดือน 1 วัน - 70 ปี ต่ออายุได้ถึงอายุ 84 ปี (คุ้มครองถึงอายุ 85 ปี)</li>
-                        <li>แผน Grand : อายุ 1 เดือน 1 วัน - 70 ปี ต่ออายุได้ถึงอายุ 84 ปี (คุ้มครองถึงอายุ 85 ปี)</li>
-                        <li>แผน Ultra : อายุ 1 เดือน 1 วัน - 60 ปี ต่ออายุได้ถึงอายุ 84 ปี (คุ้มครองถึงอายุ 85 ปี)</li>
-                      </ul>
-  
-                      <h5>สัญญาเพิ่มเติมค่ารักษาพยาบาลรายวัน แบบเฮชบี </h5>
-                      <ul class="bullet-dash indent">
-                        <li>อายุ 3 - 60 ปี ต่ออายุได้ถึง อายุ 64 ปี (คุ้มครองถึงอายุ 65 ปี)</li>
-                      </ul>
-                      <h5>งวดการชำระเบี้ยประกัน</h5>
-                      <ul class="bullet-dash indent">
-                        <li>แผน Super : รายปี</li>
-                        <li>แผน Grand และ แผน Ultra : รายปี / ราย 6 เดือน</li>
-                      </ul>
-                      <ul class="bullet-default">
-                        <li>เบี้ยประกันภัยเป็นปีต่อปี ปรับตามอายุที่เพิ่มขึ้น</li>
-                        <li>เบี้ยประกันภัยที่แสดงจะเปลี่ยนแปลงตามอายุ สุขภาพ ชั้นอาชีพของผู้ขอเอาประกันภัย</li>
-                        <li>บริษัทอาจปรับเบี้ยประกันภัย ณ วันครบรอบปีกรมธรรม์เนื่องจากปัจจัยต่างๆ ได้แก่ อายุ ชั้นอาชีพ
-                          ค่าใช้จ่ายในการรักษาพยาบาลที่สูงขึ้น<br class="dt-only">
-                          หรือจากประสบการณ์การจ่ายสินไหมทดแทนโดยรวมของสัญญาเพิ่มเติมนี้
-                          โดยบริษัทจะแจ้งให้ผู้เอาประกันภัยทราบเป็นลายลักษณ์อักษร<br class="dt-only">
-                          ไม่น้อยกว่า 30 วัน
-                          ทั้งนี้เบี้ยประกันภัยที่มีการปรับจะต้องอยู่ในอัตราที่ได้รับความเห็นชอบจากนายทะเบียนแล้ว
-                        </li>
-                        <li>การพิจารณารับประกันภัยเป็นไปตามหลักเกณฑ์และเงื่อนไขของบริษัท เอฟดับบลิวดี ประกันชีวิต จำกัด
-                          (มหาชน)</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-  
-  
-              </div>
-  
-              <!-- Level 1 Item -->
-              <div class="acc-item active">
-                <div class="acc-head">
-                  <div class="acc-head-content">
-                    <h4>
-                      คำถามที่พบบ่อย
-                    </h4>
-                  </div>
-                  <div class="toggle-icon">
-                    <div class="toggle-inner"></div>
-                  </div>
-                </div>
-                <div class="acc-content" style="height: auto;">
-                  <div class="acc-wrapper">
-                    <div class="content">
-                      <div class="tac-accordion theme-qa">
-                        <!-- 1 QA Item -->
-                        <div class="acc-item">
-                          <div class="acc-head">
-                            <div class="acc-head-content">
-                              <div class="qa-label">
-                                <p>คำถาม :</p>
-                              </div>
-                              <div class="qa-content">
-                                <p>ต้องตรวจหรือตอบคำถามสุขภาพหรือไม่?</p>
-                              </div>
-                            </div>
-                            <div class="toggle-icon">
-                              <div class="toggle-inner"></div>
-                            </div>
-                          </div>
-                          <div class="acc-content" style="height: 0px;">
-                            <div class="acc-wrapper">
-                              <div class="content">
-                                <div class="qa-label">
-                                  <p>คำตอบ :</p>
-                                </div>
-                                <div class="qa-content">
-                                  <p>ลูกค้าต้องแถลงข้อมูลเกี่ยวกับสุขภาพในใบคำขอตามความเป็นจริง
-                                    โดยการพิจารณาให้ตรวจสุขภาพจะขึ้นอยู่กับการพิจารณารับประกันของ <br class="dt-only">
-                                    บริษัท เอฟดับบลิวดี ประกันชีวิต จำกัด (มหาชน)</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-  
-                        </div>
-                        <!-- 2 QA Item -->
-                        <div class="acc-item">
-                          <div class="acc-head">
-                            <div class="acc-head-content">
-                              <div class="qa-label">
-                                <p>คำถาม :</p>
-                              </div>
-                              <div class="qa-content">
-                                <p>สามารถซื้อประกันสุขภาพเฉพาะแผนคุ้มรักษาเหมาจ่ายเพียงอย่างเดียว
-                                  โดยไม่ต้องแนบกับแบบประกันชีวิตอื่นๆ ได้หรือไม่</p>
-                              </div>
-                            </div>
-                            <div class="toggle-icon">
-                              <div class="toggle-inner"></div>
-                            </div>
-                          </div>
-                          <div class="acc-content" style="height: 0px;">
-                            <div class="acc-wrapper">
-                              <div class="content">
-                                <div class="qa-label">
-                                  <p>คำตอบ :</p>
-                                </div>
-                                <div class="qa-content">
-                                  <p>ไม่ได้ เนื่องจากแผนคุ้มรักษาเหมาจ่ายเป็นสัญญาเพิ่มเติมสุขภาพ
-                                    ที่ต้องซื้อพร้อมกับสัญญาประกันชีวิต (สัญญาหลัก) ทั้งนี้ คุณลูกค้าสามารถสอบถามข้อมูล
-                                    และรายละเอียดเพิ่มเติม กับที่ปรึกษาด้านความคุ้มครองของเราได้ </p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-  
-                        </div>
-                        <!-- 3 QA Item -->
-                        <div class="acc-item">
-                          <div class="acc-head">
-                            <div class="acc-head-content">
-                              <div class="qa-label">
-                                <p>คำถาม :</p>
-                              </div>
-                              <div class="qa-content">
-                                <p>ค่ารักษาพยาบาล ลูกค้าต้องสำรองเงินจ่ายหรือไม่?</p>
-                              </div>
-                            </div>
-                            <div class="toggle-icon">
-                              <div class="toggle-inner"></div>
-                            </div>
-                          </div>
-                          <div class="acc-content" style="height: 0px;">
-                            <div class="acc-wrapper">
-                              <div class="content">
-                                <div class="qa-label">
-                                  <p>คำตอบ :</p>
-                                </div>
-                                <div class="qa-content">
-                                  <p>ลูกค้าไม่ต้องสำรองเงินจ่าย ในกรณีที่มีการรักษาพยาบาลในโรงพยาบาลเครือข่ายของ บริษัท
-                                    เอฟดับบลิวดี ประกันชีวิต จำกัด (มหาชน) </p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-  
-                        </div>
-                        <!-- 4 QA Item -->
-                        <div class="acc-item">
-                          <div class="acc-head">
-                            <div class="acc-head-content">
-                              <div class="qa-label">
-                                <p>คำถาม :</p>
-                              </div>
-                              <div class="qa-content">
-                                <p>เบี้ยประกันภัยจะถูกปรับเพิ่มขึ้นตามอายุหรือไม่?</p>
-                              </div>
-                            </div>
-                            <div class="toggle-icon">
-                              <div class="toggle-inner"></div>
-                            </div>
-                          </div>
-                          <div class="acc-content" style="height: 0px;">
-                            <div class="acc-wrapper">
-                              <div class="content">
-                                <div class="qa-label">
-                                  <p>คำตอบ :</p>
-                                </div>
-                                <div class="qa-content">
-                                  <p> เบี้ยประกันภัยจะปรับเพิ่มขึ้นตามอายุของคุณลูกค้า</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-  
-                        </div>
-                        <!-- 5 QA Item -->
-                        <div class="acc-item">
-                          <div class="acc-head">
-                            <div class="acc-head-content">
-                              <div class="qa-label">
-                                <p>คำถาม :</p>
-                              </div>
-                              <div class="qa-content">
-                                <p>สามารถนำเบี้ยประกันไปใช้สิทธิลดหย่อนภาษีได้หรือไม่?</p>
-                              </div>
-                            </div>
-                            <div class="toggle-icon">
-                              <div class="toggle-inner"></div>
-                            </div>
-                          </div>
-                          <div class="acc-content" style="height: 0px;">
-                            <div class="acc-wrapper">
-                              <div class="content">
-                                <div class="qa-label">
-                                  <p>คำตอบ :</p>
-                                </div>
-                                <div class="qa-content">
-                                  <p>ลูกค้าสามารถนำเบี้ยประกันมาหักลดหย่อนภาษีได้ ตามประกาศอธิบดีกรมสรรพากร</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-  
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-  
-              </div>
-              <!-- Level 1 Item -->
-              <div class="acc-item active">
-                <div class="acc-head">
-                  <div class="acc-head-content">
-                    <h4>หมายเหตุ</h4>
-                  </div>
-                  <div class="toggle-icon">
-                    <div class="toggle-inner"></div>
-                  </div>
-                </div>
-                <div class="acc-content" style="height: auto;">
-                  <div class="acc-wrapper">
-                    <div class="content">
-                      <ul class="bullet-default">
-                        <li>แผนคุ้มรักษาเหมาจ่าย เป็นชื่อทางการตลาดของ สัญญาเพิ่มเติมการประกันภัยสุขภาพแบบเหมาจ่าย +
-                          สัญญาเพิ่มเติมค่ารักษาพยาบาลรายวัน แบบเฮชบี 1,000</li>
-                        <li>เบี้ยประกันภัยสามารถนำไปลดหย่อนภาษีเงินได้บุคคลธรรมดา ตามเกณฑ์ที่กรมสรรพากรกำหนด</li>
-                        <li>ผู้ซื้อควรทำความเข้าใจในรายละเอียดความคุ้มครองและเงื่อนไขก่อนตัดสินใจทำประกันภัยทุกครั้ง</li>
-                        <li>รับประกันโดย บริษัท เอฟดับบลิวดี ประกันชีวิต จำกัด (มหาชน)</li>
-                        <li>บริษัท ไทยพาณิชย์ โพรเทค จำกัด เป็นนายหน้าประกันชีวิตในการนำเสนอผลิตภัณฑ์ประกันภัย</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-  
-              </div>
-            </div>
-          </div>
-        </section>
-  
-        <section id="conditions">
-          <div class="tac-container-1">
-            <!-- Buttons - Just copy the .button form the hero banner -->
-            <div class="buttons">
-              <a class="btn btn-secondary" href="/uploads/file/brochure/brochure-health-lumpsum.pdf">
-                <svg>
-                  <use xlink:href="#ti-download"></use>
-                </svg>
-                <span class="btn-text">ดาวน์โหลดโบรชัวร์</span>
-              </a>
-              <button class="btn btn-share btn-primary-flat">
-                <div class="btn-inner" style="width: auto; transition: width 0.3s ease 0.1s;">
-                  <svg>
-                    <use xlink:href="#ti-share"></use>
-                  </svg>
-                  <span class="btn-text">แชร์ให้เพื่อน</span>
-                  <div class="sharer2">
-                    <div class="inner"> <a
-                        href="https://www.facebook.com/sharer/sharer.php?u=https://scbprotect.co.th/health/lumpsum/"
-                        target="_blank" class="share-item"><svg>
-                          <use xlink:href="#ti-facebook-round"></use>
-                        </svg></a><a href="http://twitter.com/share?url=https://scbprotect.co.th/health/lumpsum/"
-                        target="_blank" class="share-item"><svg>
-                          <use xlink:href="#ti-twitter-round"></use>
-                        </svg></a><a
-                        href="https://social-plugins.line.me/lineit/share?url=https://scbprotect.co.th/health/lumpsum/"
-                        target="_blank" class="share-item"><svg>
-                          <use xlink:href="#ti-line-round"></use>
-                        </svg></a></div>
-                  </div>
-                </div>
-              </button>
-            </div>
-            <!-- Disclaimer -->
-            <h4>ผลิตภัณฑ์นี้ขายผ่านช่องทาง<br class="d-lg-none">ที่ปรึกษาด้านความคุ้มครอง</h4>
-          </div>
-        </section>
-  
-        <section class="sec-buy-insurance ">
-  
-          <div class="tac-container-2 form-buy-ins-cnt">
-            <h2 class="title-section">สอบถามข้อมูลเพิ่มเติม</h2>
-            <h5>กรุณากรอกข้อมูลเพื่อให้ทางเรา<br class="d-md-none">สามารถติดต่อกลับไป</h5>
-            <div class="email-sent-ty text-info">
-              <p>ขอบคุณที่สนใจประกันของเรา <br class="mb-only"> ทางเราจะติดต่อกลับให้เร็วที่สุด</p>
-            </div>
-            <form id="formBuyInsurance" novalidate="novalidate">
-              <div class="form-group text-left col-12 col-lg-6">
-                <input type="text" class="form-control" name="name" placeholder="ชื่อ" data-rule-required="true"
-                  data-msg-required="กรุณากดกรอกข้อมูล">
-              </div>
-              <div class="form-group text-left col-12 col-lg-6">
-                <input type="text" class="form-control" name="tel" placeholder="หมายเลขมือถือ" minlength="10"
-                  maxlength="10" data-rule-required="true" data-msg-required="กรุณาใส่ข้อมูล" data-rule-digits="true"
-                  data-msg-digits="กรุณาใส่เป็นตัวเลขเท่านั้น" data-rule-minlength="10"
-                  data-msg-minlength="เบอร์โทรต้องครบ 10 ตัวอักษร" data-rule-maxlength="10"
-                  data-msg-maxlength="เบอร์โทรต้องไม่เกิน 10 ตัวอักษร">
-              </div>
-              <div class="form-group text-left col-12 col-lg-6">
-                <select data-placeholder="กรุณาเลือกหัวข้อที่สนใจ" id="topic" name="topic"
-                  class="form-control select2-hidden-accessible" data-rule-required="true"
-                  data-msg-required="กรุณาใส่ข้อมูล" data-select2-id="select2-data-topic" tabindex="-1"
-                  aria-hidden="true">
-                  <option value=""></option>
-                  <option>แผนคุ้มตลอดชีพมั่นคง</option>
-                  <option>แผนคุ้มออมสุข</option>
-                  <option selected="" data-select2-id="select2-data-2-44c1">แผนคุ้มรักษาเหมาจ่าย</option>
-                  <option>เอฟดับบลิวดี ฟอร์ เซฟวิ่ง 20/10</option>
-                </select><span class="select2 select2-container select2-container--default" dir="ltr"
-                  data-select2-id="select2-data-1-brcy" style="width: 100%;"><span class="selection"><span
-                      class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true"
-                      aria-expanded="false" tabindex="0" aria-disabled="false"
-                      aria-labelledby="select2-topic-container"><span class="select2-selection__rendered"
-                        id="select2-topic-container" role="textbox" aria-readonly="true"
-                        title="แผนคุ้มรักษาเหมาจ่าย">แผนคุ้มรักษาเหมาจ่าย</span><span class="select2-selection__arrow"
-                        role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper"
-                    aria-hidden="true"></span></span>
-              </div>
-              <div class="form-group text-left col-12 col-lg-6">
-                <select data-placeholder="ช่วงเวลาที่ต้องการให้ติดต่อกลับ" id="contact_time" name="contact_time"
-                  class="form-control select2-hidden-accessible" data-rule-required="true"
-                  data-msg-required="กรุณาใส่ข้อมูล" data-select2-id="select2-data-contact_time" tabindex="-1"
-                  aria-hidden="true">
-                  <option value="" data-select2-id="select2-data-4-sfai"></option>
-                  <option>8.00 น. – 10.00 น.</option>
-                  <option>10.00 น. – 12.00 น.</option>
-                  <option>12.00 น. – 14.00 น.</option>
-                  <option>14.00 น. – 16.00 น.</option>
-                  <option>16.00 น. – 18.00 น.</option>
-                  <option>18.00 น. – 20.00 น</option>
-                </select><span class="select2 select2-container select2-container--default" dir="ltr"
-                  data-select2-id="select2-data-3-ui80" style="width: 100%;"><span class="selection"><span
-                      class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true"
-                      aria-expanded="false" tabindex="0" aria-disabled="false"
-                      aria-labelledby="select2-contact_time-container"><span class="select2-selection__rendered"
-                        id="select2-contact_time-container" role="textbox" aria-readonly="true"><span
-                          class="select2-selection__placeholder">ช่วงเวลาที่ต้องการให้ติดต่อกลับ</span></span><span
-                        class="select2-selection__arrow" role="presentation"><b
-                          role="presentation"></b></span></span></span><span class="dropdown-wrapper"
-                    aria-hidden="true"></span></span>
-              </div>
-              <div class="form-group text-left col-12">
-                <select data-placeholder="จังหวัดที่อยู่" id="province" name="province"
-                  class="form-control select2-hidden-accessible" data-rule-required="true"
-                  data-msg-required="กรุณาใส่ข้อมูล" data-select2-id="select2-data-province" tabindex="-1"
-                  aria-hidden="true">
-                  <option value="" data-select2-id="select2-data-6-maf3"></option>
-                  <option>กรุงเทพมหานคร</option>
-                  <option>สมุทรปราการ</option>
-                  <option>นนทบุรี</option>
-                  <option>ปทุมธานี</option>
-                  <option>พระนครศรีอยุธยา</option>
-                  <option>อ่างทอง</option>
-                  <option>ลพบุรี</option>
-                  <option>สิงห์บุรี</option>
-                  <option>ชัยนาท</option>
-                  <option>สระบุรี</option>
-                  <option>ชลบุรี</option>
-                  <option>ระยอง</option>
-                  <option>จันทบุรี</option>
-                  <option>ตราด</option>
-                  <option>ฉะเชิงเทรา</option>
-                  <option>ปราจีนบุรี</option>
-                  <option>นครนายก</option>
-                  <option>สระแก้ว</option>
-                  <option>นครราชสีมา</option>
-                  <option>บุรีรัมย์</option>
-                  <option>สุรินทร์</option>
-                  <option>ศรีสะเกษ</option>
-                  <option>อุบลราชธานี</option>
-                  <option>ยโสธร</option>
-                  <option>ชัยภูมิ</option>
-                  <option>อำนาจเจริญ</option>
-                  <option>หนองบัวลำภู</option>
-                  <option>ขอนแก่น</option>
-                  <option>อุดรธานี</option>
-                  <option>เลย</option>
-                  <option>หนองคาย</option>
-                  <option>มหาสารคาม</option>
-                  <option>ร้อยเอ็ด</option>
-                  <option>กาฬสินธุ์</option>
-                  <option>สกลนคร</option>
-                  <option>นครพนม</option>
-                  <option>มุกดาหาร</option>
-                  <option>เชียงใหม่</option>
-                  <option>ลำพูน</option>
-                  <option>ลำปาง</option>
-                  <option>อุตรดิตถ์</option>
-                  <option>แพร่</option>
-                  <option>น่าน</option>
-                  <option>พะเยา</option>
-                  <option>เชียงราย</option>
-                  <option>แม่ฮ่องสอน</option>
-                  <option>นครสวรรค์</option>
-                  <option>อุทัยธานี</option>
-                  <option>กำแพงเพชร</option>
-                  <option>ตาก</option>
-                  <option>สุโขทัย</option>
-                  <option>พิษณุโลก</option>
-                  <option>พิจิตร</option>
-                  <option>เพชรบูรณ์</option>
-                  <option>ราชบุรี</option>
-                  <option>กาญจนบุรี</option>
-                  <option>สุพรรณบุรี</option>
-                  <option>นครปฐม</option>
-                  <option>สมุทรสาคร</option>
-                  <option>สมุทรสงคราม</option>
-                  <option>เพชรบุรี</option>
-                  <option>ประจวบคีรีขันธ์</option>
-                  <option>นครศรีธรรมราช</option>
-                  <option>กระบี่</option>
-                  <option>พังงา</option>
-                  <option>ภูเก็ต</option>
-                  <option>สุราษฎร์ธานี</option>
-                  <option>ระนอง</option>
-                  <option>ชุมพร</option>
-                  <option>สงขลา</option>
-                  <option>สตูล</option>
-                  <option>ตรัง</option>
-                  <option>พัทลุง</option>
-                  <option>ปัตตานี</option>
-                  <option>ยะลา</option>
-                  <option>นราธิวาส</option>
-                  <option>บึงกาฬ</option>formBuyInsurance
-                </select><span class="select2 select2-container select2-container--default" dir="ltr"
-                  data-select2-id="select2-data-5-nomy" style="width: 100%;"><span class="selection"><span
-                      class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true"
-                      aria-expanded="false" tabindex="0" aria-disabled="false"
-                      aria-labelledby="select2-province-container"><span class="select2-selection__rendered"
-                        id="select2-province-container" role="textbox" aria-readonly="true"><span
-                          class="select2-selection__placeholder">จังหวัดที่อยู่</span></span><span
-                        class="select2-selection__arrow" role="presentation"><b
-                          role="presentation"></b></span></span></span><span class="dropdown-wrapper"
-                    aria-hidden="true"></span></span>
-              </div>
-              <div class="form-group text-left col-12 tac-checkbox">
-                <label for="accept_tc">
-                  <input type="checkbox" id="accept_tc" name="accept_tc" data-rule-required="true"
-                    data-msg-required="กรุณากดยอมเงื่อนไขและข้อตกลง">
-                  <span class="tcb">
-                    <span class="tcb-check"></span>
-                  </span>
-                  <span class="tcb-text">
-                    เมื่อท่านให้ข้อมูลเกี่ยวกับตัวท่านข้างต้นแก่บริษัท ไทยพาณิชย์ โพรเทค จำกัด (“บริษัท”)
-                    ท่านรับรองว่าข้อมูลดังกล่าวเป็นของท่านและเป็นข้อมูลที่ถูกต้องแท้จริง
-                    โดยยินยอมให้บริษัทเก็บรวบรวมและใช้ข้อมูลดังกล่าว เพื่อการติดต่อและนำเสนอผลิตภัณฑ์หรือบริการให้แก่ท่าน
-                    ทั้งนี้ หากท่านไม่ประสงค์ให้บริษัทติดต่อ ท่านสามารถแจ้งยกเลิกได้ที่ธนาคารไทยพาณิชย์ จำกัด (มหาชน)
-                    สำนักงานใหญ่ โทร. 02-777-7777
-                  </span>
-                </label>
-              </div>
-              <div class="form-buttons">
-                <button class="btn btn-secondary btn-anim-up" type="submit">ส่งข้อมูล</button>
-              </div>
-            </form>
-          </div>
-        </section>
-  
-        <footer id="footer" class="footer">
-          <div id="refFooterMb"></div>
-          <div id="footerBlobMain"></div>
-          <img id="footerBlobB1" src="/assets/img/blob-magenta-2.svg" style="transform: translate3d(0px, 0px, 0px);">
-          <!--  <img id="footerBlobA1" src="-->
-          <!--assets/img/blob-yellow-footer.svg">-->
-          <div class="tac-container-1">
-            <div class="footer__content">
-              <div class="footer__left">
-                <div class="footer__time">
-                  <b>เวลาทําการ</b><br>
-                  วันจันทร์ - วันศุกร์<br>
-                  เวลา 8:30 - 17:30 น.
-                </div>
-                <div class="footer__tel">
-                  <span>โทร.</span>
-                  <a href="tel:020377899">02-037-7899</a>
-                </div>
-                <div class="footer__address">
-                  <b>สํานักงานใหญ่</b><br>
-                  บริษัท ไทยพาณิชย์ โพรเทค จำกัด<br>
-                  อาคาร จี ทาวเวอร์ แกรนด์พระราม 9 <br class="mb-only">ชั้น 20 เลขที่ 9 ถนนพระราม 9 ห้วยขวาง ห้วยขวาง กทม
-                  10310
-                </div>
-              </div>
-              <div class="footer__right">
-                <div class="footer__socials">
-                  <a href="#" class="footer__social">
-                    <svg>
-                      <use xlink:href="#ti-instagram-round"></use>
-                    </svg>
-                  </a>
-                  <a href="#" class="footer__social">
-                    <svg>
-                      <use xlink:href="#ti-twitter-round"></use>
-                    </svg>
-                  </a>
-                  <a href="//www.facebook.com/scbprotect" target="_blank" class="footer__social">
-                    <svg>
-                      <use xlink:href="#ti-facebook-round"></use>
-                    </svg>
-                  </a>
-                  <a href="//lin.ee/9E4NbMH" target="_blank" class="footer__social">
-                    <svg>
-                      <use xlink:href="#ti-line-round"></use>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-  
-              <div class="footer__bottom">
-                <div class="footer__cp">
-                  <a href="http://oiceservice.oic.or.th/">
-                    ตรวจสอบนายหน้า
-                  </a> |
-                  © สงวนลิขสิทธิ์ 2563<br class="d-md-none"> บริษัท ไทยพาณิชย์ โพรเทค จำกัด
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="footer__tel-bar">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-        </footer>
-        <script src="/assets/js/jquery.validate.min.js"></script>
-        <script src="/assets/js/select2.min.js"></script>
-        <script type="text/javascript" src="/assets/js/app.js"></script>
-      </div>
-      <!--scroll-content-inner-->
+
+<svg class="d-none">
+  <!-- chevrons -->
+  <symbol id="ti-chevron-left" viewBox="0 0 100 100" preserveAspectRatio="xMinYMin">
+    <path d="M70 5 L25 50 L70 95" fill="none" stroke="currentColor" stroke-width="8"/>
+  </symbol>
+  <symbol id="ti-chevron-right" viewBox="0 0 100 100" preserveAspectRatio="xMinYMin">
+    <path d="M30 5 L75 50 L30 95" fill="none" stroke="currentColor" stroke-width="8"/>
+  </symbol>
+
+  <!-- blobs -->
+  <symbol id="blob-hero-b1" viewBox="0 0 1263.71 1168.78" preserveAspectRatio="xMinYMin">
+    <path fill="currentColor" d="M1154.71,893.74C990.59,1114.12,519.9,1291.56,209,1060S-16.57,379.91,147.55,159.53s549.24-211.31,860.18,20.26S1318.84,673.36,1154.71,893.74Z"/>
+  </symbol>
+  <symbol id="blob-hero-a1" viewBox="0 0 129.41 111.6" preserveAspectRatio="xMinYMin">
+    <path fill="currentColor" d="M129.13,51.93c-2.55,26-34.54,63.31-74.59,59.38S-2.3,66.5.25,40.5,37.34-3.39,77.39.54,131.68,25.93,129.13,51.93Z"/>
+  </symbol>
+
+  <symbol id="ti-play" viewBox="0 0 32 32" preserveAspectRatio="xMinYMin">
+    <path class="current-color" data-name="Icon ionic-ios-play" d="M9,7.551v29.3a.755.755,0,0,0,1.13.7L33.359,22.9a.83.83,0,0,0,0-1.381L10.13,6.865A.747.747,0,0,0,9,7.551Z" transform="translate(-8
+	  -6.751)"/>
+  </symbol>
+</svg>
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+  <!-- Background of PhotoSwipe.
+       It's a separate element as animating opacity is faster than rgba(). -->
+  <div class="pswp__bg"></div>
+
+  <!-- Slides wrapper with overflow:hidden. -->
+  <div class="pswp__scroll-wrap">
+
+    <!-- Container that holds slides.
+        PhotoSwipe keeps only 3 of them in the DOM to save memory.
+        Don't modify these 3 pswp__item elements, data is added later on. -->
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
     </div>
-    <div class="scrollbar-track scrollbar-track-y" style="display: block;">
-      <div class="scrollbar-thumb scrollbar-thumb-y" style="height: 127.698px; transform: translate3d(0px, 0px, 0px);">
+
+    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+    <div class="pswp__ui pswp__ui--hidden">
+
+      <div class="pswp__top-bar">
+        <!--  Controls are self-explanatory. Order can be changed. -->
+        <div class="pswp__counter"></div>
+        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+        <button class="pswp__button pswp__button--share" title="Share"></button>
+        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+        <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+        <!-- element will get class pswp__preloader--active when preloader is running -->
+        <div class="pswp__preloader">
+          <div class="pswp__preloader__icn">
+            <div class="pswp__preloader__cut">
+              <div class="pswp__preloader__donut"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+        <div class="pswp__share-tooltip"></div>
+      </div>
+
+      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+      </button>
+
+      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+      </button>
+
+      <div class="pswp__caption">
+        <div class="pswp__caption__center"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!--- Image Caching --->
+<div class="d-none">
+  <img src="/assets/img/card-act-bottom.png">
+  <img src="/assets/img/card-act-top.png">
+  <img src="/assets/img/card-bottom.png">
+  <img src="/assets/img/card-top.png">
+</div>
+
+<!--- Nav --->
+<nav id="main-nav" class="nav-container toggle-on-top">
+  <div class="nmax">
+    <div class="nmaxs">
+      <div class="tac-container-1">
+        <div class="nav-max-inner">
+          <a href="/" class="nmaxs__logo mx-auto">
+            <img src="/assets/img/logo-scb-protect-long.png" alt="SCB Protect Logo">
+          </a>
+        </div>
       </div>
     </div>
   </div>
-</body>
 
+  <!--- Nav: Min --->
+  <div class="nav-min">
+    <div class="nav-min-sticky nms">
+      <a href="/" class="nms__logo mx-auto">
+        <img src="/assets/img/logo-scb-protect-long.png" alt="SCB Protect Logo">
+      </a>
+    </div>
+  </div>
+</nav>
+
+
+<div id="stickyContainer">
+  <div class="nav-padding"></div>
+</div>
+
+<!--- Scroll Container --->
+<div id="scrollContainer">
+  <div class="scroll-content-inner">
+    <div class="nav-padding"></div>
+
+<div class="plx-bgs">
+	<div class="plx plx-prod-fullwidth" data-plx-trigger="#plans" data-plx-mt="16vw" data-plx-mul="0"></div>
+	<!-- <div class="plx plx-prod-yellow" data-plx-trigger="#plans" data-plx-mt="20vw" data-plx-mul=".2"></div> -->
+	<!-- <div class="plx plx-prod-blue" data-plx-trigger="#qna" data-plx-mt="-4vw" data-plx-mul="0"></div> -->
+	<div class="plx plx-prod-white-1" data-plx-trigger="#info" data-plx-mt="10vw" data-plx-mul="-.1"></div>
+	<div class="plx plx-prod-white-2" data-plx-trigger="#qna" data-plx-mt="-15vw" data-plx-mul="0"></div>
+</div>
+
+<section id="intro" data-onepage="ข้อมูล">
+  <div class="slide slide-hero2" data-opt-nav="true">
+    <!--	Slide Item -->
+    <div class="slide-item layout-default">
+      <div class="inner">
+        <!--	Desktop -->
+        <div class="dt-only" style="background-image: url(/images/Banner_Lumpsum.jpg)">
+          <div class="content-wrap tac-container-1">
+            <div class="content">
+              <h4 class="">ประกันสุขภาพออนไลน์</h4>
+              <h3 class="">แผนคุ้มรักษาเหมาจ่าย</h3>
+              <p>หมดกังวลเรื่องค่ารักษาพยาบาลด้วย<br class="dt-only">แผนคุ้มรักษาเหมาจ่าย จ่ายตามจริง<br class="dt-only">ทุกค่าใช้จ่ายในโรงพยาบาล</p>
+            </div>
+          </div>
+        </div>
+        <!--	Mobile -->
+        <div class="mb-only">
+          <div class="img-bg" style="background-image: url(/images/Banner_Lumpsum-mb.jpg)"></div>
+          <div class="content-wrap tac-container-1">
+            <div class="content">
+              <h4 class="">ประกันสุขภาพออนไลน์</h4>
+              <h3 class="">แผนคุ้มรักษาเหมาจ่าย</h3>
+              <p>ที่สุดของความคุ้มค่า ที่สามารถเปลี่ยนจำนวนเงินเอาประกันชีวิต เป็นค่ารักษาพยาบาลผู้ป่วยใน หลังอายุ 60 ปี</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--	End: Slide Item -->
+  </div>
+  <!--<div class="plx-prod-blue-banner"></div>-->
+</section>
+
+<section id="features">
+  <div class="tac-container-1 typo-2" data-sh=".feat h5">
+    <div class="grid1 color-primary effect-grid-fadein">
+      <!-- feat item -->
+      <div class="feat effect-item col-sm-6 col-lg-3">
+        <div class="feat-inner">
+          <div class="feat-icon">
+            <img src="/images/hospital.png">
+          </div>
+          <div class="feat-content">
+            <h5><span class="color-secondary">คุ้ม</span>ครอบคลุม</h5>
+            <p class="mb-2 text-center">จ่ายค่ารักษาพยาบาลตามจริง<br class="dt-only">ทุกรายการเมื่อต้องเข้าพักรักษาเป็นผู้ป่วยใน ในโรงพยาบาล</p>
+          </div>
+        </div>
+      </div>
+      <!-- End: feat item -->
+      <!-- feat item -->
+      <div class="feat effect-item col-sm-6 col-lg-3">
+        <div class="feat-inner">
+          <div class="feat-icon">
+            <img src="/images/checkup.png">
+          </div>
+          <div class="feat-content">
+            <h5><span class="color-secondary">คุ้ม</span>ครองไร้กังวล</h5>
+            <p class="mb-2 text-center">ด้วยแผนสุขภาพเหมาจ่าย<br class="dt-only">สูงสุดถึง 3,300,000 บาท <br class="dt-only">ให้คุณหมดกังวลเรื่อง<br class="mb-only"><br class="dt-only">ค่ารักษาพยาบาลที่<br class="dt-only">เพิ่มขึ้นอย่างต่อเนื่อง</p>
+          </div>
+        </div>
+      </div>
+      <!-- End: feat item -->
+      <!-- feat item -->
+      <div class="feat effect-item col-sm-6 col-lg-3">
+        <div class="feat-inner">
+          <div class="feat-icon">
+            <img src="/images/worth-confident@2x.png">
+          </div>
+          <div class="feat-content">
+            <h5><span class="color-secondary">คุ้ม</span>รักษา</h5>
+            <p class="mb-2 text-center">ครอบคลุมทุกค่ารักษา <br class="dt-only">ด้วยเบี้ยประกันภัย <br class="mb-only">เริ่มต้น<br class="dt-only"> เพียง 19,800 บาท ต่อปี <br class="dt-only"><br class="mb-only">(เพศชาย อายุ 35 ปี <br class="dt-only">แผน Super)</p>
+          </div>
+        </div>
+      </div>
+      <!-- End: feat item -->
+      <!-- feat item -->
+      <div class="feat effect-item col-sm-6 col-lg-3">
+        <div class="feat-inner">
+          <div class="feat-icon">
+            <img src="/images/hand-bath.png">
+          </div>
+          <div class="feat-content">
+            <h5><span class="color-secondary">คุ้ม</span>สบายใจ</h5>
+            <p class="mb-2 text-center">หมดกังวล แม้ขาดงาน แต่ไม่ขาดรายได้ด้วยค่าชดเชยรายวันเมื่อเข้ารักษาตัวในโรงพยาบาล <br class="dt-only">วันละ 1,000 บาท <br class="dt-only">(กรณีเลือกซื้อเพิ่มเติม)</p>
+          </div>
+        </div>
+      </div>
+      <!-- End: feat item -->
+    </div>
+  </div>
+</section>
+
+
+
+<section id="plans" data-onepage="แผนต่างๆ">
+  <div class="tac-container-1">
+    <h2>ผลประโยชน์ความคุ้มครอง แผนคุ้มรักษาเหมาจ่าย</h2>
+    <a class="img-popup w-100" href="/images/table-lumpsum.jpg">
+    <div class="plan-table-title">ตารางเปรียบเทียบผลประโยชน์ความคุ้มครอง </div>
+    </a>
+		<div id="priceTable1"></div>  <script>
+    if (!window.priceTables) {
+      window.priceTables = []
+    }
+    window.priceTables.push({"id":"priceTable1","head":["\u0e41\u0e1c\u0e19 Super","\u0e41\u0e1c\u0e19 Grand","\u0e41\u0e1c\u0e19 Ultra"],"content":[{"title":"<h5>\u0e04\u0e27\u0e32\u0e21\u0e04\u0e38\u0e49\u0e21\u0e04\u0e23\u0e2d\u0e07<\/h5>","content":[{"text":"<h5>\u0e2a\u0e31\u0e0d\u0e0d\u0e32\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e40\u0e15\u0e34\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e23\u0e30\u0e01\u0e31\u0e19\u0e20\u0e31\u0e22<br class=\"mb-only\">\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e\u0e40\u0e2b\u0e21\u0e32\u0e08\u0e48\u0e32\u0e22 <\/h5>\n\t\t\t\t\t\t\t<h6> \n\t\t\t\t\t\t\t\t<ul class=\"bullet-default\">\n\t\t\t\t\t\t\t\t\t<li>\u0e04\u0e48\u0e32\u0e2b\u0e49\u0e2d\u0e07 \u0e04\u0e48\u0e32\u0e2d\u0e32\u0e2b\u0e32\u0e23 \u0e04\u0e48\u0e32\u0e1a\u0e23\u0e34\u0e01\u0e32\u0e23\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e1b\u0e23\u0e30\u0e08\u0e33\u0e27\u0e31\u0e19 <br class=\"mb-only\">\u0e43\u0e19\u0e2b\u0e2d\u0e1c\u0e39\u0e49\u0e1b\u0e48\u0e27\u0e22\u0e1b\u0e01\u0e15\u0e34 <br class=\"mb-only\">\u0e41\u0e25\u0e30\u0e2b\u0e2d\u0e1c\u0e39\u0e49\u0e1b\u0e48\u0e27\u0e22\u0e2b\u0e19\u0e31\u0e01 (\u0e44\u0e2d.\u0e0b\u0e35.\u0e22\u0e39)<\/li>\n\t\t\t\t\t\t\t\t\t<li>\u0e04\u0e48\u0e32\u0e23\u0e31\u0e01\u0e29\u0e32\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e2d\u0e37\u0e48\u0e19\u0e46 <br class=\"mb-only\">\u0e43\u0e19\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25 \u0e2b\u0e23\u0e37\u0e2d\u0e2a\u0e16\u0e32\u0e19\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e40\u0e27\u0e0a\u0e01\u0e23\u0e23\u0e21<\/li>\n\t\t\t\t\t\t\t\t\t<li>\u0e04\u0e48\u0e32\u0e41\u0e1e\u0e17\u0e22\u0e4c \u0e41\u0e25\u0e30\u0e04\u0e48\u0e32\u0e18\u0e23\u0e23\u0e21\u0e40\u0e19\u0e35\u0e22\u0e21 \u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e23\u0e31\u0e01\u0e29\u0e32 <br class=\"mb-only\">\u0e42\u0e14\u0e22\u0e01\u0e32\u0e23\u0e1c\u0e48\u0e32\u0e15\u0e31\u0e14<\/li>\n\t\t\t\t\t\t\t\t\t<li>\u0e04\u0e48\u0e32\u0e41\u0e1e\u0e17\u0e22\u0e4c\u0e40\u0e22\u0e35\u0e48\u0e22\u0e21\u0e44\u0e02\u0e49\u0e2b\u0e23\u0e37\u0e2d\u0e04\u0e48\u0e32\u0e1b\u0e23\u0e36\u0e01\u0e29\u0e32\u0e41\u0e1e\u0e17\u0e22\u0e4c\u0e1c\u0e39\u0e49\u0e40\u0e0a\u0e35\u0e48\u0e22\u0e27\u0e0a\u0e32\u0e0d\u0e40\u0e09\u0e1e\u0e32\u0e30\u0e42\u0e23\u0e04<\/li>\n\t\t\t\t\t\t\t\t\t<li>\u0e04\u0e48\u0e32\u0e23\u0e31\u0e01\u0e29\u0e32\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e09\u0e38\u0e01\u0e40\u0e09\u0e34\u0e19\u0e02\u0e13\u0e30\u0e40\u0e1b\u0e47\u0e19\u0e1c\u0e39\u0e49\u0e1b\u0e48\u0e27\u0e22\u0e19\u0e2d\u0e01 <br class=\"mb-only\">(\u0e40\u0e19\u0e37\u0e48\u0e2d\u0e07\u0e08\u0e32\u0e01\u0e2d\u0e38\u0e1a\u0e31\u0e15\u0e34\u0e40\u0e2b\u0e15\u0e38)<\/li>\n\t\t\t\t\t\t\t\t\t<li>\u0e04\u0e48\u0e32\u0e23\u0e31\u0e01\u0e29\u0e32\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e01\u0e23\u0e13\u0e35\u0e1c\u0e39\u0e49\u0e1b\u0e48\u0e27\u0e22\u0e19\u0e2d\u0e01\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e04\u0e48\u0e32\u0e25\u0e49\u0e32\u0e07\u0e44\u0e15 \u0e04\u0e48\u0e32\u0e40\u0e04\u0e21\u0e35\u0e1a\u0e33\u0e1a\u0e31\u0e14 \u0e41\u0e25\u0e30\u0e23\u0e31\u0e07\u0e2a\u0e35\u0e1a\u0e33\u0e1a\u0e31\u0e14<\/li>\n\t\t\t\t\t\t\t\t<\/ul>\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<\/h6>","prices":["<span class = \"text-center\"><br class=\"mb-only\"><br class=\"mb-only\"><br class=\"mb\"><small class = \"dt-only\">\u0e08\u0e48\u0e32\u0e22\u0e15\u0e32\u0e21\u0e08\u0e23\u0e34\u0e07\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14<\/small><h6 class =\"mb-only\"><br class=\"br-only\">\u0e08\u0e48\u0e32\u0e22\u0e15\u0e32\u0e21\u0e08\u0e23\u0e34\u0e07<br class=\"mb-only\">\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14<\/h6><br><br>550,000 <br class=\"dt\"><br>\u0e15\u0e48\u0e2d\u0e1b\u0e35<\/span>","<span class = \"text-center\"><br class=\"mb-only\"><br class=\"mb-only\"><br class=\"mb\"><small class = \"dt-only\">\u0e08\u0e48\u0e32\u0e22\u0e15\u0e32\u0e21\u0e08\u0e23\u0e34\u0e07\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14<\/small><h6 class =\"mb-only\"><br class=\"br-only\">\u0e08\u0e48\u0e32\u0e22\u0e15\u0e32\u0e21\u0e08\u0e23\u0e34\u0e07<br class=\"mb-only\">\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14<\/h6><br><br>1,100,000 <br class=\"dt\"><br>\u0e15\u0e48\u0e2d\u0e1b\u0e35<\/span>","<span class = \"text-center\"><br class=\"mb-only\"><br class=\"mb-only\"><br class=\"mb\"><small class = \"dt-only\">\u0e08\u0e48\u0e32\u0e22\u0e15\u0e32\u0e21\u0e08\u0e23\u0e34\u0e07\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14<\/small><h6 class =\"mb-only\"><br class=\"br-only\">\u0e08\u0e48\u0e32\u0e22\u0e15\u0e32\u0e21\u0e08\u0e23\u0e34\u0e07<br class=\"mb-only\">\u0e2a\u0e39\u0e07\u0e2a\u0e38\u0e14<\/h6><br><br>3,300,000 <br class=\"dt\"><br>\u0e15\u0e48\u0e2d\u0e1b\u0e35<\/span>"]}]},{"title":"<h5>\u0e15\u0e31\u0e27\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e40\u0e1a\u0e35\u0e49\u0e22\u0e1b\u0e23\u0e30\u0e01\u0e31\u0e19\u0e23\u0e32\u0e22\u0e1b\u0e35<\/h5>","hidden":true,"content":[{"text":"<h6>\u0e40\u0e1e\u0e28\u0e0a\u0e32\u0e22 \u0e2d\u0e32\u0e22\u0e38 35 \u0e1b\u0e35<\/h6>\n                           <p><\/p>","prices":["<b>19,800<\/b>","<b>23,500<\/b>","<b>38,200<\/b>"]},{"text":"<h6>\u0e40\u0e1e\u0e28\u0e2b\u0e0d\u0e34\u0e07 \u0e2d\u0e32\u0e22\u0e38 35 \u0e1b\u0e35<\/h6>\n                           <p><\/p>","prices":["<b>25,740<\/b>","<b>30,550<\/b>","<b>49,660<\/b>"]}]},{"title":"<h5>\u0e2a\u0e31\u0e0d\u0e0d\u0e32\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e40\u0e15\u0e34\u0e21\u0e04\u0e48\u0e32\u0e23\u0e31\u0e01\u0e29\u0e32\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e23\u0e32\u0e22\u0e27\u0e31\u0e19 \u0e41\u0e1a\u0e1a\u0e40\u0e2e\u0e0a\u0e1a\u0e35<\/h5>","hidden":true,"content":[{"text":"<h6>\u0e04\u0e48\u0e32\u0e0a\u0e14\u0e40\u0e0a\u0e22\u0e23\u0e32\u0e22\u0e27\u0e31\u0e19\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e40\u0e02\u0e49\u0e32\u0e1e\u0e31\u0e01\u0e23\u0e31\u0e01\u0e29\u0e32\u0e15\u0e31\u0e27\u0e43\u0e19\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25 \u0e15\u0e48\u0e2d\u0e27\u0e31\u0e19<\/h6>\n                           <p><\/p>","prices":["<span>1,000<\/span>","<span>1,000<\/span>","<span>1,000<\/span>"]}]},{"title":"<h5>\u0e15\u0e31\u0e27\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e40\u0e1a\u0e35\u0e49\u0e22\u0e1b\u0e23\u0e30\u0e01\u0e31\u0e19\u0e23\u0e32\u0e22\u0e1b\u0e35<\/h5>","hidden":true,"content":[{"text":"<h6>\u0e40\u0e1e\u0e28\u0e0a\u0e32\u0e22 \u0e2d\u0e32\u0e22\u0e38 35 \u0e1b\u0e35<\/h6>\n                           <p><\/p>","prices":["<b>1,600<\/b>","<b>1,600<\/b>","<b>1,600<\/b>"]},{"text":"<h6>\u0e40\u0e1e\u0e28\u0e2b\u0e0d\u0e34\u0e07 \u0e2d\u0e32\u0e22\u0e38 35 \u0e1b\u0e35<\/h6>\n                           <p><\/p>","prices":["<b>1,600<\/b>","<b>1,600<\/b>","<b>1,600<\/b>"]}]}]});
+  </script>
+	  </div>
+</section>
+
+<section id="conditions">
+  <div class="tac-container-1">
+    <!-- Buttons - Just copy the .button form the hero banner -->
+    <div class="buttons">
+		<a class="btn btn-secondary" href="/uploads/file/brochure/brochure-health-lumpsum.pdf">
+		  <svg>
+			<use xlink:href="#ti-download"/>
+		  </svg>
+		  <span class="btn-text">ดาวน์โหลดโบรชัวร์</span>
+		</a>			  
+		<a class="btn btn-share btn-primary-flat" href="/uploads/file/brochure/brochure-health-lumpsum.pdf">
+		  <svg>
+			<use xlink:href="#ti-share"/>
+		  </svg>
+		  <span class="btn-text">แชร์ให้เพื่อน</span>
+		</a>
+    </div>
+    <!-- Disclaimer -->
+    <h4>ผลิตภัณฑ์นี้ขายผ่านช่องทาง<br class="d-lg-none"/>ที่ปรึกษาด้านความคุ้มครอง</h4>
+  </div>
+</section>
+
+<section class="sec-buy-insurance ">
+	
+<div class="tac-container-2 form-buy-ins-cnt">
+  <h2 class="title-section">สอบถามข้อมูลเพิ่มเติม</h2>
+  <h5>กรุณากรอกข้อมูลเพื่อให้ทางเรา<br class="d-md-none"/>สามารถติดต่อกลับไป</h5>
+  <div class="email-sent-ty text-info">
+    <p>ขอบคุณที่สนใจประกันของเรา <br class="mb-only"> ทางเราจะติดต่อกลับให้เร็วที่สุด</p>
+  </div>
+  <form id="formBuyInsurance">
+    <div class="form-group text-left col-12 col-lg-6">
+      <input type="text" class="form-control" name="name" placeholder="ชื่อ"
+             data-rule-required="true" data-msg-required="กรุณากดกรอกข้อมูล">
+    </div>
+    <div class="form-group text-left col-12 col-lg-6">
+      <input type="text" class="form-control" name="tel" placeholder="หมายเลขมือถือ" minlength="10" maxlength="10" data-rule-required="true" data-msg-required="กรุณาใส่ข้อมูล" data-rule-digits="true" data-msg-digits="กรุณาใส่เป็นตัวเลขเท่านั้น" data-rule-minlength="10" data-msg-minlength="เบอร์โทรต้องครบ 10 ตัวอักษร" data-rule-maxlength="10" data-msg-maxlength="เบอร์โทรต้องไม่เกิน 10 ตัวอักษร">
+    </div>
+    <div class="form-group text-left col-12 col-lg-6">
+      <select data-placeholder="กรุณาเลือกหัวข้อที่สนใจ" id="topic" name="topic" class="form-control"
+              data-rule-required="true" data-msg-required="กรุณาใส่ข้อมูล">
+        <option value=""></option>
+        <option >แผนคุ้มตลอดชีพมั่นคง</option>
+        <option >แผนคุ้มออมสุข</option>
+        <option selected>แผนคุ้มรักษาเหมาจ่าย</option>
+        <option >เอฟดับบลิวดี ฟอร์ เซฟวิ่ง 20/10</option>
+      </select>
+    </div>
+    <div class="form-group text-left col-12 col-lg-6">
+      <select data-placeholder="ช่วงเวลาที่ต้องการให้ติดต่อกลับ" id="contact_time" name="contact_time" class="form-control"
+              data-rule-required="true" data-msg-required="กรุณาใส่ข้อมูล">
+        <option value=""></option>
+        <option>8.00 น. – 10.00 น.</option>
+        <option>10.00 น. – 12.00 น.</option>
+        <option>12.00 น. – 14.00 น.</option>
+        <option>14.00 น. – 16.00 น.</option>
+        <option>16.00 น. – 18.00 น.</option>
+        <option>18.00 น. – 20.00 น</option>
+      </select>
+    </div>
+    <div class="form-group text-left col-12">
+      <select data-placeholder="จังหวัดที่อยู่" id="province" name="province" class="form-control"
+              data-rule-required="true" data-msg-required="กรุณาใส่ข้อมูล">
+        <option value=""></option>
+				<option>กรุงเทพมหานคร</option><option>สมุทรปราการ</option><option>นนทบุรี</option><option>ปทุมธานี</option><option>พระนครศรีอยุธยา</option><option>อ่างทอง</option><option>ลพบุรี</option><option>สิงห์บุรี</option><option>ชัยนาท</option><option>สระบุรี</option><option>ชลบุรี</option><option>ระยอง</option><option>จันทบุรี</option><option>ตราด</option><option>ฉะเชิงเทรา</option><option>ปราจีนบุรี</option><option>นครนายก</option><option>สระแก้ว</option><option>นครราชสีมา</option><option>บุรีรัมย์</option><option>สุรินทร์</option><option>ศรีสะเกษ</option><option>อุบลราชธานี</option><option>ยโสธร</option><option>ชัยภูมิ</option><option>อำนาจเจริญ</option><option>หนองบัวลำภู</option><option>ขอนแก่น</option><option>อุดรธานี</option><option>เลย</option><option>หนองคาย</option><option>มหาสารคาม</option><option>ร้อยเอ็ด</option><option>กาฬสินธุ์</option><option>สกลนคร</option><option>นครพนม</option><option>มุกดาหาร</option><option>เชียงใหม่</option><option>ลำพูน</option><option>ลำปาง</option><option>อุตรดิตถ์</option><option>แพร่</option><option>น่าน</option><option>พะเยา</option><option>เชียงราย</option><option>แม่ฮ่องสอน</option><option>นครสวรรค์</option><option>อุทัยธานี</option><option>กำแพงเพชร</option><option>ตาก</option><option>สุโขทัย</option><option>พิษณุโลก</option><option>พิจิตร</option><option>เพชรบูรณ์</option><option>ราชบุรี</option><option>กาญจนบุรี</option><option>สุพรรณบุรี</option><option>นครปฐม</option><option>สมุทรสาคร</option><option>สมุทรสงคราม</option><option>เพชรบุรี</option><option>ประจวบคีรีขันธ์</option><option>นครศรีธรรมราช</option><option>กระบี่</option><option>พังงา</option><option>ภูเก็ต</option><option>สุราษฎร์ธานี</option><option>ระนอง</option><option>ชุมพร</option><option>สงขลา</option><option>สตูล</option><option>ตรัง</option><option>พัทลุง</option><option>ปัตตานี</option><option>ยะลา</option><option>นราธิวาส</option><option>บึงกาฬ</option>formBuyInsurance
+      </select>
+    </div>
+    <div class="form-group text-left col-12 tac-checkbox">
+      <label for="accept_tc">
+        <input type="checkbox" id="accept_tc" name="accept_tc"
+               data-rule-required="true" data-msg-required="กรุณากดยอมเงื่อนไขและข้อตกลง">
+        <span class="tcb">
+          <span class="tcb-check"></span>
+        </span>
+        <span class="tcb-text">
+          เมื่อท่านให้ข้อมูลเกี่ยวกับตัวท่านข้างต้นแก่บริษัท ไทยพาณิชย์ โพรเทค จำกัด (“บริษัท”) ท่านรับรองว่าข้อมูลดังกล่าวเป็นของท่านและเป็นข้อมูลที่ถูกต้องแท้จริง โดยยินยอมให้บริษัทเก็บรวบรวมและใช้ข้อมูลดังกล่าว เพื่อการติดต่อและนำเสนอผลิตภัณฑ์หรือบริการให้แก่ท่าน ทั้งนี้ หากท่านไม่ประสงค์ให้บริษัทติดต่อ ท่านสามารถแจ้งยกเลิกได้ที่ธนาคารไทยพาณิชย์ จำกัด (มหาชน) สำนักงานใหญ่ โทร. 02-777-7777
+        </span>
+      </label>
+    </div>
+    <div class="form-buttons">
+      <button class="btn btn-secondary btn-anim-up" type="submit">ส่งข้อมูล</button>
+    </div>
+  </form>
+</div>
+</section>
+
+<footer id="footer" class="footer">
+  <div id="refFooterMb"></div>
+  <div id="footerBlobMain"></div>
+  <img id="footerBlobB1" src="/assets/img/blob-magenta-2.svg">
+<!--  <img id="footerBlobA1" src="--><!--assets/img/blob-yellow-footer.svg">-->
+  <div class="tac-container-1">
+    <div class="footer__content">
+      <div class="footer__left">
+        <div class="footer__time">
+          <b>เวลาทําการ</b><br>
+          วันจันทร์ - วันศุกร์<br>
+          เวลา 8:30 - 17:30 น.
+        </div>
+        <div class=footer__tel>
+          <span>โทร.</span>
+          <a href="tel:020377899">02-037-7899</a>
+        </div>
+        <div class="footer__address">
+          <b>สํานักงานใหญ่</b><br>
+          บริษัท ไทยพาณิชย์ โพรเทค จำกัด<br>
+          อาคาร จี ทาวเวอร์ แกรนด์พระราม 9 <br class="mb-only">ชั้น 20 เลขที่ 9 ถนนพระราม 9 ห้วยขวาง ห้วยขวาง กทม 10310
+        </div>
+      </div>
+      <div class="footer__right">
+        <div class="footer__socials">
+          <a href="#" class="footer__social">
+            <svg>
+              <use xlink:href="#ti-instagram-round"/>
+            </svg>
+          </a>
+          <a href="#" class="footer__social">
+            <svg>
+              <use xlink:href="#ti-twitter-round"/>
+            </svg>
+          </a>
+          <a href="//www.facebook.com/scbprotect" target="_blank" class="footer__social">
+            <svg>
+              <use xlink:href="#ti-facebook-round"/>
+            </svg>
+          </a>
+          <a href="//lin.ee/9E4NbMH" target="_blank" class="footer__social">
+            <svg>
+              <use xlink:href="#ti-line-round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__cp">
+          <a href="http://oiceservice.oic.or.th/">
+            ตรวจสอบนายหน้า
+          </a> | 
+          © สงวนลิขสิทธิ์ 2563<br class="d-md-none"/> บริษัท ไทยพาณิชย์ โพรเทค จำกัด
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__tel-bar">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</footer>
+<script src="/assets/js/jquery.validate.min.js"></script>
+<script src="/assets/js/select2.min.js"></script>
+<script type="text/javascript" src="/assets/js/app.js"></script>
+</div> <!--scroll-content-inner-->
+</div> <!--scroll-container-->
+</body>
 </html>
