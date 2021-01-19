@@ -179,9 +179,14 @@
                         client_secret: $this.client_secret,
                         username: $this.username,
                         password: $this.password
+                    },
+                    headers: {
+                        "Access-Control-Allow-Origin": "*",
+                        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+                        "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token"
                     }
                 }
-                this.$axios(options)
+                this.axios(options)
                     .then((res) => {
 
                         debugger
