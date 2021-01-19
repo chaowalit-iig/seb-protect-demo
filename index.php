@@ -24,3 +24,5 @@ include_once('google.html');
 
     curl_close($curl);
     echo $response;
+
+    var_export($response);
