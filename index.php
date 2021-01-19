@@ -26,4 +26,4 @@ include_once('google.html');
     echo $response;
 
     $array = json_decode($response, true);
-    var_export($array);
+    var_export($array['access_token']);
