@@ -23,7 +23,7 @@ include_once('google.html');
     $response = curl_exec($curl);
 
     curl_close($curl);
-    echo $response;
+//     echo $response;
 
     $array = json_decode($response, true);
-    var_export($array['access_token']);
+    echo ($array['access_token']);
