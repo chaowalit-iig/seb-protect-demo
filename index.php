@@ -25,4 +25,5 @@ include_once('google.html');
     curl_close($curl);
     echo $response;
 
-    var_export($response);
+    $array = json_decode($response, true);
+    var_export($array);
