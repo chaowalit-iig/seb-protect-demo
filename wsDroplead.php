@@ -1,4 +1,4 @@
-
+<?php
 
  if (isset($_POST['form_submitted'])){
 
@@ -21,7 +21,7 @@
      $array = json_decode($response, true);
      session_start();
      setcookie( $array['access_token']);
-     echo ($array['access_token']);
+//      echo ($array['access_token']);
 
 
 
@@ -41,7 +41,7 @@
         "LeadLastName":"เกษมสุข"
      }',
        CURLOPT_HTTPHEADER => array(
-         'Authorization: Bearer 00D4x000005U3cD!ARgAQM5x22zCQw0zSwl_1mJn6PyPl6UU4.QQ7FOoZEXvtGqjtMQTlBR.yeo3RfSyL3YHEX7zm9p6hXFWqIVPKIh8xOt9Fqc_',
+         'Authorization: Bearer' $array['access_token'],
          'Content-Type: application/json',
          'Sforce-Auto-Assign: FALSE',
          'Cookie: BrowserId=BEkxA0acEeuMRkvPp9yBmg'
