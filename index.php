@@ -23,9 +23,9 @@ include_once('google.html');
     $response = curl_exec($curl);
     curl_close($curl);
     $array = json_decode($response, true);
-//     echo ($array['access_token']);
     session_start();
-    $_SESSION['access_token'] = $array['access_token'];
+    setcookie( $array['access_token']);
+    echo ($array['access_token']);
 
 
 
