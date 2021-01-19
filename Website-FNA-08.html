@@ -176,19 +176,12 @@
                 data.append('client_secret', $this.client_secret);
                 data.append('username', $this.username);
                 data.append('password', $this.password);
-                let config = {
-                    headers: {
-                        "Access-Control-Allow-Origin": "*",
-                        "Access-Control-Allow-Credentials": true,
-                        "Access-Control-Max-Ag": 1000,
-                        "Access-Control-Allow-Methods": "Access-Control-Allow-Methods: PUT, POST, GET, OPTIONS, DELETE",
-                        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Origin, Cache-Control, Pragma, Authorization, Accept, Accept-Encodin"
-                    }
-
-                }
 
                 axios.post('https://login.salesforce.com/services/oauth2/token',
-                    data, config,
+                    data, {
+                        headers: {
+                            'Access-Control-Allow-Origin': '*',
+                        }}
                 ).then(function (response) {
                    debugger
                 })
