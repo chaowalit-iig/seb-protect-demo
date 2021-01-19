@@ -146,54 +146,75 @@
     </div>
 
 </div>
+<button> GET Token</button>
 <!--scroll-container-->
 </body>
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
 <script src="assets/js/axios.js"></script>
+<script src="assets/js/jquery.min.js"></script>
 <script>
-    var app = new Vue({
-        el: '#Website_FNA',
-        data: {
-            grant_type: 'password',
-            client_id: '3MVG9kBt168mda_8J9udsdveviGy2Jmw2UJXNicivKpPoDRTtzmVLsL3hBVW1A7reQl1N9zdxMMEHsyhZU7Xp',
-            client_secret: '113FEC8F25DF38E3D50707ABBBE9892E302E0FF766AA999038436615B7F5BAA5',
-            username: 'moo@jan21rs.demo',
-            password: 'passw0rd2021',
-            to_ken: '',
-        },
-        methods: {
-            getToken(){
+
+    $(document).ready(function () {
+        $("button").click(function () {
+            var settings = {
+                "url": "https://login.salesforce.com/services/oauth2/token?grant_type=password&client_id=3MVG9kBt168mda_8J9udsdveviGy2Jmw2UJXNicivKpPoDRTtzmVLsL3hBVW1A7reQl1N9zdxMMEHsyhZU7Xp&client_secret=113FEC8F25DF38E3D50707ABBBE9892E302E0FF766AA999038436615B7F5BAA5&username=moo@jan21rs.demo&password=passw0rd2021",
+                "method": "POST",
+                "timeout": 0,
+            };
+
+            $.ajax(settings).done(function (response) {
                 debugger
-                let $this = this;
-                let data = new FormData();
-                data.append('grant_type', $this.grant_type);
-                data.append('client_id', $this.client_id);
-                data.append('client_secret', $this.client_secret);
-                data.append('username', $this.username);
-                data.append('password', $this.password);
-                let config = {
-                    header: {
-                        'Content-Type': 'multipart/form-data'
-                    }
-                }
-                axios.post('https://login.salesforce.com/services/oauth2/token?grant_type=password&client_id=3MVG9kBt168mda_8J9udsdveviGy2Jmw2UJXNicivKpPoDRTtzmVLsL3hBVW1A7reQl1N9zdxMMEHsyhZU7Xp&client_secret=113FEC8F25DF38E3D50707ABBBE9892E302E0FF766AA999038436615B7F5BAA5&username=moo@jan21rs.demo&password=passw0rd2021',
-                    data, config, {}
-                ).then(function (response) {
-                   debugger
-                })
-                    .catch(function (error) {
-                    });
-            }
-        },
-        mounted() {
-            debugger
-            this.getToken();
-
-        }
-
+                console.log(response);
+            });
+        });
     });
+
+
+
+
+    // var app = new Vue({
+    //     el: '#Website_FNA',
+    //     data: {
+    //         grant_type: 'password',
+    //         client_id: '3MVG9kBt168mda_8J9udsdveviGy2Jmw2UJXNicivKpPoDRTtzmVLsL3hBVW1A7reQl1N9zdxMMEHsyhZU7Xp',
+    //         client_secret: '113FEC8F25DF38E3D50707ABBBE9892E302E0FF766AA999038436615B7F5BAA5',
+    //         username: 'moo@jan21rs.demo',
+    //         password: 'passw0rd2021',
+    //         to_ken: '',
+    //     },
+    //     methods: {
+    //         getToken(){
+    //             debugger
+    //             let $this = this;
+    //             let data = new FormData();
+    //             data.append('grant_type', $this.grant_type);
+    //             data.append('client_id', $this.client_id);
+    //             data.append('client_secret', $this.client_secret);
+    //             data.append('username', $this.username);
+    //             data.append('password', $this.password);
+    //             let config = {
+    //                 header: {
+    //                     'Content-Type': 'multipart/form-data'
+    //                 }
+    //             }
+    //             axios.post('https://login.salesforce.com/services/oauth2/token',
+    //                 data, config, {}
+    //             ).then(function (response) {
+    //                debugger
+    //             })
+    //                 .catch(function (error) {
+    //                 });
+    //         }
+    //     },
+    //     mounted() {
+    //         debugger
+    //         this.getToken();
+    //
+    //     }
+    //
+    // });
 
 
 </script>
