@@ -161,6 +161,17 @@
       background-color: #fff;
       box-shadow: 1px 1px 1.75rem 0 rgba(122, 88, 191, 0.2);
     }
+
+    .btn-back-custom {
+      color: #7A5BBF !important;
+      padding: 20px 2rem;
+      min-width: 100px;
+      height: 80px;
+    }
+
+    .btn-back-custom:focus {
+      box-shadow: none;
+    }
   </style>
 </head>
 
@@ -170,7 +181,11 @@
       <div class="nmaxs">
         <div class="tac-container-1">
           <div class="nav-max-inner">
-            <a href="online_premium_cal.html" class="nmaxs__logo">
+            <a class="btn btn-back-custom" href="#">
+              <img src="/assets/img/icons8_back.png" width="42px" style="display: inline-block;">
+              <div style="display: inline-block; font-size: 18px;">คำนวณเบี้ยประกัน</div>
+            </a>
+            <a href="ipad_dashboard.html" class="nmaxs__logo">
               <img src="/assets/img/logo-scb-protect-long.png" alt="SCB Protect Logo">
             </a>
             <div class="progressbox">
@@ -190,7 +205,7 @@
     <div class="nav-min">
       <div class="nav-min-sticky nms">
         <div style="display: flex; justify-content: space-between; width: 100%;">
-          <a href="online_premium_cal.html" class="nms__logo">
+          <a href="ipad_dashboard.html" class="nms__logo">
             <img src="/assets/img/logo-scb-protect-long.png" alt="SCB Protect Logo">
           </a>
           <div class="progressbox">
@@ -238,21 +253,26 @@
 
                 <h4 class="mb-4 mt-5">เลือกวิธีการชำระเงิน</h4>
                 <div id="payment-method" class="grid1">
-                  <div class="col-6">
+                  <div class="col-4">
                     <div class="box-purple-custom text-center active mt-0">
+                      <h5>เงินสด</h5>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="box-purple-custom text-center mt-0">
                       <h5>บัตรเครดิต / บัตรเดบิต</h5>
                     </div>
                   </div>
-                  <div class="col-6">
+                  <div class="col-4">
                     <div class="box-purple-custom text-center mt-0">
                       <h5>โอนผ่านบัญชีธนาคาร</h5>
                     </div>
                   </div>
                 </div>
 
-                <hr class="break">
+                <hr class="break d-none">
                 
-                <div id="payment-credit">
+                <div id="payment-credit" class="d-none">
                   <div class="form-group">
                     <input type="number" class="form-control" name="creditcard_number" placeholder="หมายเลขบัตรเครดิต/บัตรเดบิต" data-rule-required="true" data-msg-required="กรุณากรอกหมายเลขบัตรเครดิต">
                   </div>
@@ -347,10 +367,7 @@
             </div>
 
             <div class="buttons text-center" style="margin-top: 60px;">
-              <a class="btn btn-step btn-outline-primary mr-sm-4 mr-0 mb-fhd-0 mb-4" href="online_personal_question.html">
-                <span class="btn-text">ย้อนกลับ</span>
-              </a>
-              <a class="btn btn-step btn-secondary" href="online_purchase_success.html">
+              <a class="btn btn-step btn-secondary" href="ipad_purchase_success.html">
                 <span class="btn-text">ชำระเงิน</span>
               </a>
             </div>

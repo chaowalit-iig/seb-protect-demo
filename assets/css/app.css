@@ -13782,7 +13782,7 @@ textarea.form-control {
 .tac-checkbox .tcb-check {
   width: 100%;
   height: 100%;
-  background: #2f1761 url(../assets/img/icon-check.svg) no-repeat center center/75% auto;
+  background: #2f1761 url(/assets/img/icon-check.svg) no-repeat center center/75% auto;
   display: none; }
 
 .tac-checkbox .tcb-text {

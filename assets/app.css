@@ -14150,7 +14150,7 @@ body {
         width: 4px; } }
 
 .scroll-content-inner {
-  position: relative;
+  /*position: relative;*/
   width: 100vw;
   overflow-x: hidden;
   overflow: hidden; }
@@ -17860,8 +17860,8 @@ body:not(.is-mobile) .effect-grid-fadein.aos .effect-item:nth-child(7) {
       height: 70%;
       border-left: 1px solid #EEEAF9; }
   .pcat__icon {
-    width: 3em;
-    height: 3em;
+    width: 4em;
+    height: 4em;
     margin: 0 auto .75rem auto; }
     .pcat__icon svg {
       width: 100%;
@@ -18028,6 +18028,14 @@ body:not(.is-mobile) .effect-grid-fadein.aos .effect-item:nth-child(7) {
       display: none; } }
 
 
-      /*MY CSS*/
+/*MY CSS*/
 
-      .stff-img{margin-bottom: 20px;}
+.stff-img{margin-bottom: 20px;}
+
+.pcat__icon img{width: 100%;}
+
+.inputSpan{
+  padding: 5px 25px;
+  color: gray;
+  display: block;
+}
