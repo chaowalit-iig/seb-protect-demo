@@ -50,7 +50,7 @@
 
      $responseDroplead = curl_exec($curlDroplead);
      curl_close($curlDroplead);
-     echo $response;
+     echo $responseDroplead;
  }
 
 
