@@ -21,7 +21,7 @@
 <!---------------------------------->
 <!---------------------------------->
 <nav id="main-nav" class="nav-container toggle-on-top">
-    <div class="nmax" id="Website_FNA">
+    <div class="nmax">
         <div class="nmaxs">
             <div class="tac-container-1">
                 <div class="nav-max-inner">
@@ -36,16 +36,15 @@
 <!--- Scroll Container --->
 <!---------------------------------->
 <!---------------------------------->
-<div id="scrollContainer" data-scrollbar="true" tabindex="-1" style="overflow: hidden; outline: none;">
+<div id="scrollContainer Website_FNA" data-scrollbar="true" tabindex="-1" style="overflow: hidden; outline: none;">
     <div class="scroll-content">
         <div class="scroll-content-inner">
 
             <section class="sec-buy-insurance">
                 <div class="tac-container-1">
-                    <a href="Website-FNA-07.html" class="back" style="position: absolute;"><img
-                            src="assets/icon-back.png"></a>
+                    <a href="Website-FNA-07.html" class="back" style="position: absolute;"><img src="assets/icon-back.png"></a>
                     <div class="stff-img" style="text-align: center;">
-                        <img src="assets/photo-staff.png" style="width: 120px;"/>
+                        <img src="assets/photo-staff.png" style="width: 120px;" />
                     </div>
                 </div>
                 <div class="tac-container-2 form-buy-ins-cnt">
@@ -61,8 +60,7 @@
                                 <div class="card1__content">
                                     <h4 class="card1__title-top color-cyan">ประกันสุขภาพ</h4>
                                     <h3 class="card1__title">แผนคุ้มรักษาเหมาจ่าย</h3>
-                                    <p class="card1__text">หมดกังวลเรื่องค่ารักษาพยาบาลด้วย<br class="dt-only"><br
-                                            class="mb-only">แผนคุ้มรักษาเหมาจ่าย จ่ายตามจริง</p>
+                                    <p class="card1__text">หมดกังวลเรื่องค่ารักษาพยาบาลด้วย<br class="dt-only"><br class="mb-only">แผนคุ้มรักษาเหมาจ่าย จ่ายตามจริง</p>
                                 </div>
                                 <div class="card1__hv">
                                     <div class="flex-grow-1"></div>
@@ -140,6 +138,7 @@
             </section>
 
 
+
             <script src="./assets/jquery.validate.min.js.download"></script>
             <script src="./assets/select2.min.js.download"></script>
             <script type="text/javascript" src="./assets/app.js.download"></script>
@@ -148,28 +147,57 @@
 
 </div>
 <!--scroll-container-->
+</body>
 
-<script src="assets/js/jquery.min.js"></script>
-<button>Get External Content</button>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+<script src="assets/js/axios.js"></script>
 <script>
+    var app = new Vue({
+        el: '#Website_FNA',
+        data: {
+            grant_type: 'password',
+            client_id: '3MVG9kBt168mda_8J9udsdveviGy2Jmw2UJXNicivKpPoDRTtzmVLsL3hBVW1A7reQl1N9zdxMMEHsyhZU7Xp',
+            client_secret: '113FEC8F25DF38E3D50707ABBBE9892E302E0FF766AA999038436615B7F5BAA5',
+            username: 'moo@jan21rs.demo',
+            password: 'passw0rd2021',
+            to_ken: '',
+        },
+        methods: {
+            getToken(){
+                debugger
+                let $this = this;
+                let data = new FormData();
+                data.append('grant_type', $this.grant_type);
+                data.append('client_id', $this.client_id);
+                data.append('client_secret', $this.client_secret);
+                data.append('username', $this.username);
+                data.append('password', $this.password);
+                let config = {
+                    header: {
+                        'Content-Type': 'multipart/form-data'
+                    }
+                }
+                axios.post('https://login.salesforce.com/services/oauth2/token?grant_type=password&client_id=3MVG9kBt168mda_8J9udsdveviGy2Jmw2UJXNicivKpPoDRTtzmVLsL3hBVW1A7reQl1N9zdxMMEHsyhZU7Xp&client_secret=113FEC8F25DF38E3D50707ABBBE9892E302E0FF766AA999038436615B7F5BAA5&username=moo@jan21rs.demo&password=passw0rd2021',
+                    data, config, {}
+                ).then(function (response) {
+                   debugger
+                })
+                    .catch(function (error) {
+                    });
+            }
+        },
+        mounted() {
+            debugger
+            this.getToken();
 
+        }
 
-    $(document).ready(function () {
-        $("button").click(function () {
-            var settings = {
-                "url": "https://login.salesforce.com/services/oauth2/token?grant_type=password&client_id=3MVG9kBt168mda_8J9udsdveviGy2Jmw2UJXNicivKpPoDRTtzmVLsL3hBVW1A7reQl1N9zdxMMEHsyhZU7Xp&client_secret=113FEC8F25DF38E3D50707ABBBE9892E302E0FF766AA999038436615B7F5BAA5&username=moo@jan21rs.demo&password=passw0rd2021",
-                "method": "POST",
-                "timeout": 0,
-            };
-
-            $.ajax(settings).done(function (response) {
-                console.log(response);
-            });
-        });
     });
 
 
 </script>
+
 
 
 </body>
